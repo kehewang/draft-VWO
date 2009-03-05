@@ -1,21 +1,20 @@
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_3.xsd">
-    <Version>1.3.2</Version>
-    <!-- Version of the CCSDS_PGM_PT5M document: v0.1 November 4, 2008  -->
-    <NumericalData>
-        <ResourceID>spase://VWO/NumericalData/IMAGE/RPI/CCSDS_PGM_PT5M</ResourceID>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
+    <Version>1.3.4</Version>
+    <!-- Version of the DAILY_DS_PT5M document: v0.3 February 25, 2009  -->
+    <DisplayData>
+        <ResourceID>spase://VWO/DisplayData/IMAGE/RPI/DAILY_DS_PT5M</ResourceID>
         <ResourceHeader>
-            <ResourceName>RPI Plasmagram Telemetry Data</ResourceName>
-            <ReleaseDate>2008-11-02T13:21:43Z</ReleaseDate>
-            <Description>RPI Plasmagram telemetry data files: instrument telemetry packets wrapped in the CCSDS envelope. Data can be viewed/edited by BinBrowser software, see http://ulcar.uml.edu for details. Data model document is available at http://ulcar.uml.edu/rpi.html. RPI PLasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the radar pulses.  Radar echoes from important magnetospheric structures, such as the magnetopause and the plasmapause, appear as traces on plasmagrams. Plasmagram traces are intermixed with vertical signatures corresponding to the locally excited plasma resonances and various natural emissions propagating in space. </Description>
+            <ResourceName>RPI Daily Dynamic Spectrogram Plot</ResourceName>
+            <ReleaseDate>2009-02-25T13:21:43Z</ReleaseDate>
+            <Description>Collection of RPI Daily Dynamic Spectrogram plots at NASA GSFC, covering complete mission period.</Description>
             <Acknowledgement/>
             <Contact>
                 <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
-            <InformationURL>
-                <Name>IMAGE RPIAnywhere Download Page</Name>
-                <URL>http://car.uml.edu/Installation/install_all.htm</URL>
-            </InformationURL>
             <InformationURL>
                 <Name>IMAGE RPI Instrument Page</Name>
                 <URL>http://image.gsfc.nasa.gov/rpi/</URL>
@@ -24,49 +23,67 @@
                 <Name>IMAGE RPI Instrument Page at UML</Name>
                 <URL>http://ulcar.uml.edu/rpi.html</URL>
             </InformationURL>
-            <AssociationID/>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/UML/RPI</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>RPIAnywhere Data Access Installation Page</Name>
-                <URL>http://car.uml.edu/Installation/install_all.htm</URL>
-                <Description>RPI mission data repository at UML</Description>
+                <Name>RPI Daily Dynamic Spectrograms</Name>
+                <URL>http://image.gsfc.nasa.gov/rpi/spectrogram/</URL>
+                <Description>Repository of RPI dynamic spectrogram images at NASA GSFC, containing web interface to individual images. </Description>
             </AccessURL>
-            <Format>Binary</Format>
+            <Format>GIF</Format>
             <Encoding>None</Encoding>
             <Acknowledgement/>
         </AccessInformation>
-        <ProviderProcessingLevel>MET to UT conversion using clock drift data</ProviderProcessingLevel>
+        <ProviderProcessingLevel>Level 1</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/IMAGE/RPI</InstrumentID>
-        <MeasurementType>ElectricField</MeasurementType>
-        <MeasurementType>RadioSoundings</MeasurementType>
-        <MeasurementType>RadioandPlasmaWaves</MeasurementType>
+        <MeasurementType>Waves.Passive</MeasurementType>
         <MeasurementType>Spectrum</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>2000-04-21T20:24:42Z</StartDate>
                 <StopDate>2005-12-11T02:43:10Z</StopDate>
-                <Note>Cadence of plasmagram measurements is variable depending on the science objective and RPI operating schedule design</Note>
             </TimeSpan>
             <Cadence>PT5M</Cadence>
         </TemporalDescription>
         <SpectralRange>RadioFrequency</SpectralRange>
-        <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
-        <Caveats>Less than 20% of all plasmagrams contain signatures of remote reflections from magnetospheric plasma structures. The RPI instrument is a radar of opportunity: for its 10 Watt signal to reflect at a remote location as far as 40,000 km away, return to the spacecraft location, and appear above the noise level to be detected, a number of conditions needs to be satisfied. Plasmagram data exploration requires a substantial manual labor expense.</Caveats>
+        <Caveats></Caveats>
+        <!-- ToDo: tie this to the VWO resource with source passive RPI telemetry data -->
         <InputResourceID/>
         <Parameter>
-            <Name>Field strength as function of operating frequency and delay time</Name>
-            <Description>Raw antenna voltage samples at various degree of compression</Description>
-            <Caveats>Measurement parameters vary depending on orbit location and science objectives</Caveats>
+            <Name>Epoch</Name>
+            <!-- ParameterKey is used by calling software to ... do something? -->
+            <ParameterKey>Epoch</ParameterKey>
+            <Description>Number of milliseconds since the epoch</Description>
+            <Caveats></Caveats>
             <Cadence>PT5M</Cadence>
-            <Field>
-            <FieldQuantity>Electric</FieldQuantity>
-            </Field>
+            <Units>ms</Units>
+            <UnitsConversion>1e-3&gt;s</UnitsConversion>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
         </Parameter>
-    </NumericalData>
+        <Parameter>
+            <Name>Signal Spectral Density</Name>
+            <Description>Voltage spectral density of received signal as function of operating frequency</Description>
+            <Cadence>PT5M</Cadence>
+            <Units>nV/root-Hz</Units>
+            <Photon>
+                <Qualifier>Pseudo</Qualifier>
+                <Qualifier>Average</Qualifier>
+                <PhotonQuantity>Intensity</PhotonQuantity>
+                <FrequencyRange>
+                    <SpectralRange>RadioFrequency</SpectralRange>
+                    <Low>3</Low>
+                    <High>3000</High>
+                    <Units>kHz</Units>
+                </FrequencyRange>
+            </Photon>
+        </Parameter>
+    </DisplayData>
 </Spase>

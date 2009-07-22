@@ -5,7 +5,7 @@
     <Version>1.3.4</Version>
     <!-- Version of the DAILY_DS_PT5M document: v0.3 February 25, 2009  -->
     <DisplayData>
-        <ResourceID>spase://VWO/DisplayData/IMAGE/RPI/DAILY_DS_PT5M</ResourceID>
+        <ResourceID>spase://VWO/DisplayData/IMAGE/RPI/GIF_DS_PT5M</ResourceID>
         <ResourceHeader>
             <ResourceName>RPI Daily Dynamic Spectrogram Plot</ResourceName>
             <ReleaseDate>2009-02-25T13:21:43Z</ReleaseDate>

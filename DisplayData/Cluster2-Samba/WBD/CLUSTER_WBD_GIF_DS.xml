@@ -15,7 +15,7 @@ This dataset contains 30 s duration survey spectrogram plots from the WBD instru
 The WBD data are obtained in one of three filter bandwidth modes: (1) 9.5 kHz, (2) 19 kHz, or (3) 77 kHz. The minimum frequency of each of these three frequency bands can be shifted up (converted) from the default 0 kHz base frequency by 125.454, 250.908 or 501.816 kHz. The time resolution of the data shown in the plots is determined from the WBD instrument mode.  The highest time resolution data are sampled at 4.6 microseconds in the time domain, 4.7 milliseconds in the frequency domain (generally the 77 kHz bandwidth mode).  The lowest time resolution data are sampled at 36.5 microseconds in the time domain, 37.3 milliseconds in the frequency domain (generally the 9.5 kHz bandwidth mode).
 
 Above the spectrogram plot are a line plot panel, followed by four status lines. The line plot panel at the top provides the gain state (0 to 75 dB, in 5 dB steps) of the instrument.  The four status lines provide the following information according to the color code in the upper right corner:   
-Data mode - whether from DSN, or from BM2 mode as digitally filtered or duty cycled. 
+Data mode - whether from DSN mode (real time telemetry), or from BM2 mode (recorded onboard in Burst Mode 2) as digitally filtered or duty cycled.
 Antenna - the electric field (Ey or Ez) or the magnetic field (Bx or By) antenna used. 
 Resolution - the data digitization level, which can be 1 bit, 4 bit or 8 bit. 
 Translation - the translation from base frequency of 0 kHz. 

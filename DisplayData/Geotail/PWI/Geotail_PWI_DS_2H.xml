@@ -1,0 +1,67 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+    <Version>2.0.0</Version>
+    <DisplayData>
+	<ResourceID>spase://VWO/DisplayData/Geotail/PWI/GEOTAIL_PWI_DS_2H</ResourceID>
+	<ResourceHeader>
+		<ResourceName>Geotail PWI 2 hour dynamic spectrograms </ResourceName>
+		<AlternateName/>
+		<ReleaseDate>2010-07-07T01:00:00Z</ReleaseDate>
+		<Description>Geotail PWI SFA and MCA dynamic spectrogram plots with frequency in Hz on the vertical axis and time in UT on the horizontal axis. Each file contains one spectrogram from the electric field antennas and one from the magnetic field search coils. 
+		The electric field spectrograms span the frequency range 5.62 to 24 Hz (the Multi-Channel Analyzer - MCA instrument) and 24 Hz to 800 kHz (the Sweep Frequency Analyzer - SFA instrument). The intensity values are color coded and are expressed in units of dBV/m/root-Hz. 
+		The magnetic field spectrograms also combine the MCA and SFA instruments and span the frequency range 5.62 Hz to 12.5 kHz. The intensity values are color coded and are expressed in units of dB nT/root-Hz. 
+		Each plot spans 2 hours. Information on the instrument and antenna status is also provided above each spectrogram.  
+		 </Description>
+		<Acknowledgement>Before using these data in publications or presentations permission must be obtained from the PI of PWI (Hiroshi Matsumoto). Concerning this permission and questions about the GEOTAIL PWI data contact Hiro Kojima</Acknowledgement>
+		<Contact>
+			<PersonID>spase://SMWG/person/Hiroshi.Matsumoto</PersonID>
+			<Role>PrincipalInvestigator</Role>
+		</Contact>
+		<Contact>
+			<PersonID>spase://SMWG/Person/Hirotsugu.Kojima</PersonID>
+			<Role>CoInvestigator</Role>
+			<Role>GeneralContact</Role>	
+		</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+		<InformationURL>
+			<Name>Geotail PWI Instrument Page</Name>
+			<URL> http://www.kurasc.kyoto-u.ac.jp/gtlpwi/</URL>
+			<Description> Geotail PWI Instrument page maintained by the Research Institute for Sustainable Humanosphere at Kyoto University, Japan with descriptions of PWI, PWI 24 hour plots, PWI 2 hour plots and Geotail PWI publications. </Description>
+			<Language>en</Language>
+		</InformationURL>
+		<Association/>
+		<PriorID/>
+	</ResourceHeader>
+	<AccessInformation>
+		<RepositoryID>spase://SMWG/Repository/RISH</RepositoryID> 
+		<Availability>Online</Availability>
+		<AccessRights>Open</AccessRights>
+		<AccessURL>
+			<Name/> 
+			<URL>http://www.kurasc.kyoto-u.ac.jp/gtlpwi/gtldata.html</URL>
+			<Description>A directory containing Geotail PWI 2 hour dynamic spectrograms</Description> 
+			<Language>en</Language>
+		</AccessURL>
+		<Format>GIF</Format>
+		<Encoding>None</Encoding> 
+		<Acknowledgement>Before using these data in publications or presentations permission must be obtained from the PI of PWI (Hiroshi Matsumoto). Concerning this permission and questions about the GEOTAIL PWI data contact Hiro Kojima </Acknowledgement>
+	</AccessInformation>
+	<InstrumentID> spase://SMWG/Instrument/Geotail/PWI</InstrumentID>
+	<MeasurementType>Waves.Passive</MeasurementType>
+	<TemporalDescription>
+		<TimeSpan>
+			<StartDate>1992-09-18T00:00:00Z</StartDate>
+			<StopDate>2009-01-23T23:59:59Z</StopDate>
+		</TimeSpan>
+	</TemporalDescription>	
+	<DisplayCadence>P1D</DisplayCadence>
+	<ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+	<ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+	<ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+	<ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+	<ObservedRegion>Heliosphere.Inner</ObservedRegion>
+	<Extension/> 
+    </DisplayData>
+</Spase>

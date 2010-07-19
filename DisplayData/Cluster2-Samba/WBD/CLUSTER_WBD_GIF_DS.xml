@@ -91,7 +91,7 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
         <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
-        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
         <Caveats>See the data interpretation issues web site http://www-pw.physics.uiowa.edu/cluster/interpretation_issues/interpretation.html</Caveats>
         <!-- Keywords pertaining to the data presentation -->
         <Keyword>Dynamic Spectrogram</Keyword>

@@ -13,7 +13,7 @@
 		 </Description>
 		<Acknowledgement>Before using these data in publications or presentations permission must be obtained from the PI of PWI (Hiroshi Matsumoto). Concerning this permission and questions about the GEOTAIL PWI data contact Hiro Kojima</Acknowledgement>
 		<Contact>
-			<PersonID>spase://SMWG/person/Hiroshi.Matsumoto</PersonID>
+			<PersonID>spase://SMWG/Person/Hiroshi.Matsumoto</PersonID>
 			<Role>PrincipalInvestigator</Role>
 		</Contact>
 		<Contact>
@@ -21,10 +21,10 @@
 			<Role>CoInvestigator</Role>
 			<Role>GeneralContact</Role>	
 		</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
-            <Role>ProjectScientist</Role>
-         </Contact>
+		<Contact>
+		  <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
+		  <Role>ProjectScientist</Role>
+		</Contact>
 		<InformationURL>
 			<Name>Geotail PWI Instrument Page</Name>
 			<URL> http://www.kurasc.kyoto-u.ac.jp/gtlpwi/</URL>
@@ -62,6 +62,55 @@
 	<ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
 	<ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
 	<ObservedRegion>Heliosphere.Inner</ObservedRegion>
-	<Extension/> 
+        <!-- Keywords pertaining to the data presentation -->
+        <Keyword>Dynamic Spectrogram</Keyword>
+        <Keyword>Spectrogram</Keyword>
+        <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
+        <Keyword>AKR</Keyword>
+        <Keyword>Auroral Kilometric Radiation</Keyword>
+        <Keyword>Chorus</Keyword>
+        <Keyword>Continuum radiation</Keyword>
+        <Keyword>Myriametric radiation</Keyword>      
+        <Keyword>Solar radio burst</Keyword>
+        <Keyword>Terrestrial Kilometric Radiation</Keyword>
+        <Keyword>TKR</Keyword>
+        <Keyword>Type II Solar radio burst</Keyword>
+        <Keyword>Type III Solar radio burst</Keyword>
+        <Parameter>
+             <Name>Pseudo Electric Intensity</Name>
+	     <Description/>
+	     <Cadence>P1D</Cadence>
+	     <Units>db(V/m/root-Hz)</Units>
+	     <Wave>
+	       <Qualifier>Magnitude</Qualifier>
+	       <Qualifier>Pseudo</Qualifier>
+	       <WaveType>PlasmaWaves</WaveType>
+	       <WaveQuantity>Intensity</WaveQuantity>
+	       <FrequencyRange>
+		 <SpectralRange>RadioFrequency</SpectralRange>
+		 <Low>5.62</Low>
+		 <High>800000</High>
+		 <Units>Hz</Units>
+	       </FrequencyRange>
+	     </Wave>
+	</Parameter>
+        <Parameter>
+             <Name>Pseudo Magnetic Intensity</Name>
+	     <Description/>
+	     <Cadence>P1D</Cadence>
+	     <Units>db(nT/root-Hz)</Units>
+	     <Wave>
+	       <Qualifier>Magnitude</Qualifier>
+	       <Qualifier>Pseudo</Qualifier>
+	       <WaveType>PlasmaWaves</WaveType>
+	       <WaveQuantity>Intensity</WaveQuantity>
+	       <FrequencyRange>
+		 <SpectralRange>RadioFrequency</SpectralRange>
+		 <Low>5.62</Low>
+		 <High>12500</High>
+		 <Units>Hz</Units>
+	       </FrequencyRange>
+	     </Wave>
+	</Parameter>
     </DisplayData>
 </Spase>

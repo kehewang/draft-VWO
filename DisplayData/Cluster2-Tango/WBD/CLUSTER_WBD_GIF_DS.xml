@@ -1,6 +1,6 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
-    <Version>2.0.3</Version>
-    <!-- v1.3 June 11, 2010  -->
+    <Version>2.2.0</Version>
+    <!-- v1.4 October 12, 2010  -->
     <DisplayData>
         <ResourceID>spase://VWO/DisplayData/Cluster2-Tango/WBD/CLUSTER_WBD_GIF_DS</ResourceID>
         <ResourceHeader>
@@ -8,7 +8,8 @@
             <AlternateName>Cluster II Tango WBD 30s Survey Spectrograms</AlternateName>
             <AlternateName>Cluster 4 WBD High Time Resolution Dynamic Spectrogram Plot</AlternateName>
             <AlternateName>Cluster 4 WBD 30s Survey Spectrograms</AlternateName>                        
-            <ReleaseDate>2010-06-11T13:00:00Z</ReleaseDate>
+            <AlternateName>C4_CG_WBD_GIFPLOT</AlternateName>                        
+            <ReleaseDate>2010-10-12T13:00:00Z</ReleaseDate>
             <Description> 
 This dataset contains 30 s duration survey spectrogram plots from the WBD instrument on the Cluster spacecraft.  The spectrograms are created by 1024 point FFTs and plotted with frequency on the vertical axis, increasing time on the horizontal, and color indicating power spectral density, in relative dB. The AC electric field data are obtained by using one of the two 88m spin plane electric field antennas of the EFW instrument as a sensor. The AC magnetic field data are obtained by using one of the two search coil magnetometers (one in the spin plane, the other along the spin axis) of the STAFF instrument as a sensor. 
 
@@ -59,6 +60,20 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
             <PriorID/>
         </ResourceHeader>
         <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/CAA</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Restricted</AccessRights>
+            <AccessURL>
+                <Name>Cluster WBD High Time Resolution Survey Spectrograms</Name>
+                <URL>http://caa.estec.esa.int</URL>
+                <Description>Repository of WBD dynamic spectrogram images and data at ESA's Cluster Active Archive. </Description>
+                <Language>en</Language>
+            </AccessURL>
+            <Format>GIF</Format>
+            <Encoding>None</Encoding>
+            <Acknowledgement>Users please acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I  University of Iowa and ESA Cluster Active Archive for making these dynamic spectrograms available.</Acknowledgement>
+        </AccessInformation>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UI</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
@@ -70,7 +85,7 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
             </AccessURL>
             <Format>GIF</Format>
             <Encoding>None</Encoding>
-            <Acknowledgement>Users please acknowledge Donald A. Gurnett, PI and Jolene S. Pickett, Co-I  University of Iowa for making these dynamic spectrograms available.</Acknowledgement>
+            <Acknowledgement>Users please acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I  University of Iowa for making these dynamic spectrograms available.</Acknowledgement>
         </AccessInformation>
         <ProcessingLevel>Calibrated</ProcessingLevel>
         <ProviderResourceName />

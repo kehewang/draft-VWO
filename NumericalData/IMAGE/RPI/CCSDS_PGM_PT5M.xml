@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
-    <Version>1.3.4</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+    <Version>2.2.0</Version>
         <!-- Version of the CCSDS_PGM_PT5M document: v0.3 February 25, 2009  -->
         <NumericalData>
             <ResourceID>spase://VWO/NumericalData/IMAGE/RPI/CCSDS_PGM_PT5M</ResourceID>
             <ResourceHeader>
                 <ResourceName>RPI Plasmagram Telemetry Data</ResourceName>
-                <ReleaseDate>2009-02-25T13:21:43Z</ReleaseDate>
+                <ReleaseDate>2010-11-02T20:17:00Z</ReleaseDate>
                 <Description>RPI plasmagram telemetry data files, received signal strength in the frequency-delay frame. Formatted as instrument telemetry packets wrapped in the CCSDS envelope. Data can be viewed/edited by BinBrowser software, see http://ulcar.uml.edu for details. Data model document is available at http://ulcar.uml.edu/rpi.html. RPI PLasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the radar pulses.  Radar echoes from important magnetospheric structures, such as the magnetopause and the plasmapause, appear as traces on plasmagrams. Plasmagram traces are intermixed with vertical signatures corresponding to the locally excited plasma resonances and various natural emissions propagating in space. </Description>
                 <Acknowledgement/>
                 <Contact>

@@ -9,9 +9,11 @@
             <ReleaseDate>2010-10-25T12:00:00Z</ReleaseDate>
             <Description>from URAP Users Notes: Guide  To  The  Archiving  Of  Ulysses Radio  And  Plasma  Wave  Data
 by Roger Hess, Robert MacDowall, Denise Lengyel-Frey
+
                    March 15, 1995 - version 1.0
                 revised March 24, 1999 - version 1.1
                  revised June 8, 1999 - version 1.2
+                 
 These color plots present URAP radio and plasma wave data in a
 format referred to as dynamic spectra.  For the daily plots, the time
 resolution is 128 seconds, providing high-time resolution across the
@@ -205,10 +207,12 @@ antenna was deployed).
 7. Spacecraft location - At the lower left on the plots, 4 parameters
 related to the location of Ulysses at the mid-time of the plot are
 printed:
+
 a) the Ulysses-Sun (U-S) distance in AU,
 b) the heliographic latitude (Hlat_U) of Ulysses in degrees,
 c) the Ulysses-Sun-Earth (U-S-E) angle in degrees, and
 d) the Ulysses-Jupiter (U-J) distance in AU.
+
 These are among the most relevant parameters for interpreting the
 URAP data.  Additional parameters, as well as a graphic showing
 the Ulysses location relative to the Sun, Earth, and Jupiter, can be
@@ -297,6 +301,7 @@ http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         <Keyword>Jovian Kilometric Radiation</Keyword>
         <Keyword>KOM</Keyword>
         <Keyword>bKOM</Keyword>
+        <Keyword>nKOM</Keyword>
         <Keyword>Jovian Hectometric Radiation</Keyword>
         <Keyword>HOM</Keyword>
         <Keyword>Type II Solar radio burst</Keyword>
@@ -323,7 +328,7 @@ nT**2 Hz**(-1).</Description>
                   <FrequencyRange>
                         <SpectralRange>RadioFrequency</SpectralRange>
                         <Low>0.08</Low>
-                        <High>9400</High>
+                        <High>940000</High>
                         <Units>Hz</Units>
                   </FrequencyRange>
             </Wave>

@@ -27,6 +27,12 @@
 			<Description>A Polar PWI page is maintained at the University of Iowa with descriptions of interpretation issues, user's guides, data availability tables, a form for creating summary plots and access to pregenerated dynamic spectrograms.</Description>
 			<Language>en</Language>
 		</InformationURL>
+		<InformationURL>
+			<Name>User's Guide to PWI Receiver Design Features and Modes</Name>
+			<URL>http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html</URL>
+			<Description>Descriptions of PWI receiver and antenna modes.</Description>
+			<Language>en</Language>
+		</InformationURL>
 		<Association/>
 		<PriorID/>
 	</ResourceHeader>
@@ -68,8 +74,14 @@
         <Keyword>Auroral hiss</Keyword>
         <Keyword>Auroral Kilometric Radiation</Keyword>
         <Keyword>Banded emissions</Keyword>
+        <Keyword>Broadband Electrostatic Noise</Keyword>
+        <Keyword>BEN</Keyword>
         <Keyword>Chorus</Keyword>
         <Keyword>Continuum radiation</Keyword>
+        <Keyword>Electromagnetic Ion Cyclotron waves</Keyword>
+        <Keyword>EMIC</Keyword>
+        <Keyword>Electron Cyclotron Harmonics</Keyword>
+        <Keyword>Kilometric Continuum radiation</Keyword>
         <Keyword>Myriametric radiation</Keyword>      
         <Keyword>Plasmaspheric Hiss</Keyword>
         <Keyword>Solar radio burst</Keyword>
@@ -77,6 +89,8 @@
         <Keyword>TKR</Keyword>
         <Keyword>UHR</Keyword>
         <Keyword>Upper hybrid resonance</Keyword>
+        <Keyword>Whistler mode</Keyword>
+        <Keyword>Whistlers</Keyword>
         <Parameter>
              <Name>SFR-A Power Spectral Density</Name>
              <Description />

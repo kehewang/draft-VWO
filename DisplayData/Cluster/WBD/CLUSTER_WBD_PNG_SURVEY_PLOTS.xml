@@ -4,10 +4,10 @@
     <Version>2.2.0</Version>
     <!-- v1.4 October 12, 2010  -->
     <DisplayData>
-        <ResourceID>spase://VWO/DisplayData/Cluster2/WBD/CLUSTER_WBD_PNG_SURVEY_PLOTS</ResourceID>
+        <ResourceID>spase://VWO/DisplayData/Cluster/WBD/CLUSTER_WBD_PNG_SURVEY_PLOTS</ResourceID>
         <ResourceHeader>
-            <ResourceName>Cluster II WBD Survey Dynamic Spectrogram Plot</ResourceName>
-            <AlternateName>Cluster II WBD Overview Spectrogram</AlternateName>
+            <ResourceName>Cluster WBD Survey Dynamic Spectrogram Plot</ResourceName>
+            <AlternateName>Cluster WBD Overview Spectrogram</AlternateName>
             <AlternateName>CM_CP_WBD_SPECPLOT_OVERVIEW_PNG</AlternateName>
             <ReleaseDate>2010-10-12T13:00:00Z</ReleaseDate>
             <Description> 
@@ -87,10 +87,10 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
         <ProcessingLevel>Calibrated</ProcessingLevel>
         <ProviderResourceName />
         <ProviderProcessingLevel>AC electric field data: Calibrated data in physical units. AC Magnetic field data: Calibrated data in engineering units </ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/WBD</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/WBD</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/WBD</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/WBD</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/WBD</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Salsa/WBD</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Samba/WBD</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Tango/WBD</InstrumentID>
         <MeasurementType>Waves.Passive</MeasurementType>
         <MeasurementType>Spectrum</MeasurementType>
         <TemporalDescription>

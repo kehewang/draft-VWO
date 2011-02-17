@@ -2,13 +2,13 @@
     <Version>2.2.0</Version>
     <!-- v1.4 October 12, 2010  -->
     <DisplayData>
-        <ResourceID>spase://VWO/DisplayData/Cluster2-Salsa/WBD/CLUSTER_WBD_GIF_DS</ResourceID>
+        <ResourceID>spase://VWO/DisplayData/Cluster-Tango/WBD/CLUSTER_WBD_GIF_DS</ResourceID>
         <ResourceHeader>
-            <ResourceName>Cluster II Salsa WBD High Time Resolution Dynamic Spectrogram Plot</ResourceName>
-            <AlternateName>Cluster II Salsa WBD 30s Survey Spectrograms</AlternateName>
-            <AlternateName>Cluster 2 WBD High Time Resolution Dynamic Spectrogram Plot</AlternateName>            
-            <AlternateName>Cluster 2 WBD 30s Survey Spectrograms</AlternateName>
-            <AlternateName>C2_CG_WBD_GIFPLOT</AlternateName>
+            <ResourceName>Cluster Tango WBD High Time Resolution Dynamic Spectrogram Plot</ResourceName>
+            <AlternateName>Cluster Tango WBD 30s Survey Spectrograms</AlternateName>
+            <AlternateName>Cluster 4 WBD High Time Resolution Dynamic Spectrogram Plot</AlternateName>
+            <AlternateName>Cluster 4 WBD 30s Survey Spectrograms</AlternateName>                        
+            <AlternateName>C4_CG_WBD_GIFPLOT</AlternateName>                        
             <ReleaseDate>2010-10-12T13:00:00Z</ReleaseDate>
             <Description> 
 This dataset contains 30 s duration survey spectrogram plots from the WBD instrument on the Cluster spacecraft.  The spectrograms are created by 1024 point FFTs and plotted with frequency on the vertical axis, increasing time on the horizontal, and color indicating power spectral density, in relative dB. The AC electric field data are obtained by using one of the two 88m spin plane electric field antennas of the EFW instrument as a sensor. The AC magnetic field data are obtained by using one of the two search coil magnetometers (one in the spin plane, the other along the spin axis) of the STAFF instrument as a sensor. 
@@ -90,7 +90,7 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
         <ProcessingLevel>Calibrated</ProcessingLevel>
         <ProviderResourceName />
         <ProviderProcessingLevel>Calibrated data in engineering units. </ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/WBD</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Tango/WBD</InstrumentID>
         <MeasurementType>Waves.Passive</MeasurementType>
         <MeasurementType>Spectrum</MeasurementType>
         <TemporalDescription>

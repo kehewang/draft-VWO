@@ -30,7 +30,7 @@ These data consist of output from the SWAVES HFR and LFR receivers.
             <Role>PrincipalInvestigator</Role>
         </Contact>
 		<Contact>
-			<PersonID>spase://SMWG/Person/Robert.MacDowall</PersonID>
+			<PersonID>spase://SMWG/Person/Robert.J.MacDowall</PersonID>
 			<Role>CoInvestigator</Role>
 			<Role>GeneralContact</Role>	
 		</Contact>

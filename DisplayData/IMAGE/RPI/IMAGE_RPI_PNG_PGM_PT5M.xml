@@ -36,7 +36,6 @@
             <PriorID/>
         </ResourceHeader>
         <AccessInformation>
-            <!-- This remains to be added to SMWG -->
             <RepositoryID>spase://SMWG/Repository/UML/RPI</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>

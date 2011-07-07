@@ -5,7 +5,7 @@
 	<ResourceHeader>
 		<ResourceName>Polar PWI SFR-B Daily Dynamic Spectrograms</ResourceName>
 		<AlternateName/>
-		<ReleaseDate>2011-01-10T01:00:00Z</ReleaseDate>
+		<ReleaseDate>2011-07-07T20:00:00Z</ReleaseDate>
 		<Description>The Polar PWI Sweep Frequency Receiver-B (SFR-B) collected data from March 1996 to September 1997. The SFR-B used the magnetic loop antenna (mounted on a 6m boom and oriented parallel to the Eu antenna).  The SFR-B receiver spanned the frequency range from 26 Hz to 808 kHz in 5 bands: 26-200 Hz, 0.2 - 1.6 kHz, 1.7 - 12.6 kHz, 13-100 kHz, 100-808 kHz.
                 Each image is a daily plot of the power spectral density (nT^2 Hz^-1) of received signal (color scale) as a function of operating frequency (in a logarithmic scale on vertical axis) and time (horizontal axis). At the top of each plot is a title indicating the Instrument, Receiver and Antenna used followed by the time span for the spectrogram. Beneath the time labels on the horizontal axis are ephemeris data: position of the spacecraft in radial distance (Earth radii), geomagnetic latitude, magnetic local time, and McIlwain L-shell. Overlaid on each image is a trace of the electron gyrofrequency.
 		 </Description>
@@ -47,9 +47,10 @@
 		<Encoding>None</Encoding> 
 		<Acknowledgement></Acknowledgement>
 	</AccessInformation>
-	<InstrumentID> spase://SMWG/Instrument/POLAR/PWI</InstrumentID>
+	<InstrumentID>spase://SMWG/Instrument/POLAR/PWI</InstrumentID>
 	<MeasurementType>Waves.Passive</MeasurementType>
     <MeasurementType>Spectrum</MeasurementType>
+    <MeasurementType>MagneticField</MeasurementType>    
 	<TemporalDescription>
 		<TimeSpan>
 			<StartDate>1996-03-25T00:00:00Z</StartDate>
@@ -92,13 +93,12 @@
         	 <Name>SFR-B Power Spectral Density</Name>
              <Description />
              <Caveats>See the web page on Polar PWI Interpretation Issues http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/interpretation.html </Caveats>
-             <Cadence>P1D</Cadence>
              <Units>nT^2 * Hz^-1</Units>
              <Wave>
                   <WaveType>PlasmaWaves</WaveType>
                   <Qualifier>Magnitude</Qualifier>
                   <Qualifier>Pseudo</Qualifier>
-                  <WaveQuantity>Intensity</WaveQuantity>
+                  <WaveQuantity>ACMagneticField</WaveQuantity>
                   <FrequencyRange>
                         <SpectralRange>RadioFrequency</SpectralRange>
                         <Low>26</Low>

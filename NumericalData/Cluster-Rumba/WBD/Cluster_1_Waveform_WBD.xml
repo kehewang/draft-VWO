@@ -159,8 +159,7 @@ Goddard Space Flight Center, or the Cluster Active Archive, as appropriate,
 as the source of the data in any publication.</Acknowledgement> 
   </AccessInformation>
   <ProcessingLevel>Calibrated</ProcessingLevel> 
-  <InstrumentID>spase://SMWG/Instrument/Cluster-
-Rumba/WBD</InstrumentID> 
+  <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/WBD</InstrumentID> 
   <MeasurementType>Waves.Passive</MeasurementType> 
   <MeasurementType>ElectricField</MeasurementType> 
   <MeasurementType>MagneticField</MeasurementType> 

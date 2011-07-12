@@ -39,8 +39,8 @@
 		<Availability>Online</Availability>
 		<AccessRights>Open</AccessRights>
 		<AccessURL>
-			<Name/> 
-			<URL>http://www.kurasc.kyoto-u.ac.jp/gtlpwi/gtldata.html</URL>
+			<Name>Directory of Geotail PWI 2 Hour Dynamic Spectrograms</Name> 
+			<URL>http://www.kurasc.kyoto-u.ac.jp/gtlpwi/2hour/</URL>
 			<Description>A directory containing Geotail PWI 2 hour dynamic spectrograms</Description> 
 			<Language>en</Language>
 		</AccessURL>

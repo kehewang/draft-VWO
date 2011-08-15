@@ -1,9 +1,9 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
     <Version>2.2.0</Version>
     <DisplayData>
-	<ResourceID>spase://VWO/DisplayData/WIND/WAVES/WIND_WAVES_DS_24H_ALL_COLOR_PS</ResourceID>
+	<ResourceID>spase://VWO/DisplayData/Wind/WAVES/WIND_WAVES_DS_24H_ALL_COLOR_PS</ResourceID>
 	<ResourceHeader>
-		<ResourceName>WIND WAVES All Instruments Daily Summary Color Dynamic Spectrograms</ResourceName>
+		<ResourceName>Wind WAVES All Instruments Daily Summary Color Dynamic Spectrograms</ResourceName>
 		<AlternateName/>
 		<ReleaseDate>2010-10-29T01:00:00Z</ReleaseDate>
 		<Description>Wind Waves RAD2, RAD1, and TNR dynamic spectrogram plots with frequency in kHz on the vertical axis and time in UT on the horizontal axis. Each file contains one electric field spectrogram from each of three instruments: RAD1 (radio receiver band 1), RAD2 (radio receiver band 2) and TNR (thermal noise receiver). 
@@ -39,9 +39,9 @@ The thermal noise receiver (TNR) is designed to actively track the solar wind pl
 			<Role>GeneralContact</Role>	
 		</Contact>
 		<InformationURL>
-			<Name>WAVES Experiment on the WIND Spacecraft</Name>
+			<Name>WAVES Experiment on the Wind Spacecraft</Name>
 			<URL>http://lep694.gsfc.nasa.gov/waves/waves.html</URL>
-			<Description>WIND/WAVES page maintained at NASA/GSFC with descriptions of the instrument, publications, examples of data, a form for requesting summary plots, Type II/IV event lists and access to numerical data in IDL save file format and ASCII format and IDL code.</Description>
+			<Description>Wind/WAVES page maintained at NASA/GSFC with descriptions of the instrument, publications, examples of data, a form for requesting summary plots, Type II/IV event lists and access to numerical data in IDL save file format and ASCII format and IDL code.</Description>
 			<Language>en</Language>
 		</InformationURL>
 		<Association/>
@@ -61,7 +61,7 @@ The thermal noise receiver (TNR) is designed to actively track the solar wind pl
 		<Encoding>None</Encoding> 
 		<Acknowledgement></Acknowledgement>
 	</AccessInformation>
-	<InstrumentID> spase://SMWG/Instrument/WIND/WAVES</InstrumentID>
+	<InstrumentID> spase://SMWG/Instrument/Wind/WAVES</InstrumentID>
 	<MeasurementType>Waves.Passive</MeasurementType>
 	<TemporalDescription>
 		<TimeSpan>

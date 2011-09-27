@@ -131,8 +131,7 @@ interpretation and caveat descriptions.</Description>
   <PriorID /> 
   </ResourceHeader>
 <AccessInformation>
-  <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb
-  </RepositoryID> 
+  <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID> 
   <Availability>Online</Availability> 
   <AccessRights>Open</AccessRights> 
 <AccessURL>

@@ -1,6 +1,8 @@
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xmlns="http://www.spase-group.org/data/schema" 
+   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
    <Version>2.2.1</Version>
-   <NumericalData>>
+   <NumericalData>
       <ResourceID>spase://VWO/NumericalData/ISIS1/SFS/ISIS1_Ionogram_CDF_PT29S</ResourceID>
       <ResourceHeader>
          <ResourceName>ISIS-1 Topside Sounder Ionograms</ResourceName>

@@ -71,7 +71,7 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
             <Acknowledgement>Users please acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I  University of Iowa and ESA Cluster Active Archive for making these dynamic spectrograms available.</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/UI</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>

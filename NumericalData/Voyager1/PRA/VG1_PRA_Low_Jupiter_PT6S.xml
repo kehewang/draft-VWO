@@ -10,9 +10,10 @@
          <ReleaseDate>2012-01-10T00:00:00.000</ReleaseDate>
          <Description>
 	   (Description based on material from VG1_PRA_JUP_HRES_DS.CAT)
-         	        Voyager 1 Radio Astronomy (PRA) data from the Jupiter encounter (1979-01-06 to 1979-04-13).  The data    
-set provides 6 second high resolution lowband radio mean power data. The data 
-are provided for 70 instrument channels, covering 1.2 to 1326.0 kHz."         
+	   
+        Voyager 1 Radio Astronomy (PRA) data from the Jupiter encounter (1979-01-06 to 1979-04-13).  
+	The data set provides 6 second high resolution lowband radio mean power data. The data 
+	are provided for 70 instrument channels, covering 1.2 to 1326.0 kHz.        
  
       This data set (VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0) contains              
       data acquired by the Voyager-1 Planetary Radio Astronomy (PRA)          
@@ -38,8 +39,10 @@ are provided for 70 instrument channels, covering 1.2 to 1326.0 kHz."
       samples, the left hand circular and right hand circular (radio          
       definition) power.                                                      
                                                                               
-      Measured Parameters                                                     
-      ===================                                                     
+      Measured Parameters  
+                                                         
+      ===================
+                                                           
       The data here are from the low frequency receiver band and are          
       'packaged' into spacecraft major frame records. Each major              
       frame is 48 seconds long or eight sweeps through the PRA                
@@ -76,16 +79,26 @@ are provided for 70 instrument channels, covering 1.2 to 1326.0 kHz."
       for PRA low band. Numbering those bits 0 for least significant          
       to 11 for most significant, the bits that have meaning are as           
       follows:                                                                
-      bit                                                                     
+
+      bit     
+                                                                      
        0: 15 dB attenuator in use when equal to 1                             
+
        1: 30 dB attenuator in use when equal to 1                             
+
        2: 45 dB attenuator in use when equal to 1                             
+
        9,10 (together): polarization of first channel sampled (1326.0         
                         kHz) according to the scheme:                         
-                       value bit 10 =                                         
-                               0 1                                            
-              value bit 9 = 0  R L                                            
-                            1  L R                                            
+
+                                                                              
+            +---------------------------+                                                                              
+	    |            |    |value bit|
+	    |            |    | 10=     |
+	    |            |    | 0  |  1 |
+	    |value bit 9=|  0 | R  |  L |
+	    |            |  1 | L  |  R |
+	    +---------------------------+                                                                              
                                                                               
       Polarization at successively lower frequencies is opposite to           
       the frequency above it, i.e. either a LRLR or an RLRL pattern.          
@@ -103,22 +116,27 @@ are provided for 70 instrument channels, covering 1.2 to 1326.0 kHz."
       Missing or bad data values are set to zero. If the status word          
       is zero, any data in that receiver sweep should be discarded.           
                                                                               
-      Data Coverage                                                           
+      Data Coverage     
+                                                            
       =============                                                           
+      
       The data are stored as 4 ASCII tables (.TAB), each accompanied with a PDS     
       label file (.LBL) which describes properties of the data file.  Data          
-      cover the following time intervals:                                           
+      cover the following time intervals:  
 
-      Filename   Records               Start                 Stop             
-      ----------------------------------------------------------------------- 
       Volume ID: VGPR_1201                                                    
-      PRA_I.TAB   35569   1979-01-06T00:00:34.000Z  1979-01-30T23:59:47.000Z  
-      PRA_II.TAB  39493   1979-01-31T00:00:35.000Z  1979-02-25T23:59:47.000Z  
-      PRA_III.TAB 41371   1979-02-26T00:00:35.000Z  1979-03-22T23:59:56.000Z  
-      PRA_IV.TAB  24587   1979-03-23T00:00:44.000Z  1979-04-13T23:59:08.000Z
-                                                                              
+                                                     
+     +------------------------------------------------------------------------+
+     | Filename  |Records|              Start       |            Stop         |
+     |------------------------------------------------------------------------|
+     | PRA_I.TAB |  35569| 1979-01-06T00:00:34.000Z | 1979-01-30T23:59:47.000Z|  
+     | PRA_II.TAB|  39493| 1979-01-31T00:00:35.000Z | 1979-02-25T23:59:47.000Z|  
+     |PRA_III.TAB|  41371| 1979-02-26T00:00:35.000Z | 1979-03-22T23:59:56.000Z|  
+     | PRA_IV.TAB|  24587| 1979-03-23T00:00:44.000Z | 1979-04-13T23:59:08.000Z|
+     +------------------------------------------------------------------------+                                                                              
                                                                               
       Confidence Level Overview                                               
+      
       =========================                                               
                                                                               
       The accuracy of calibration in the PRA low band is                      
@@ -130,20 +148,20 @@ are provided for 70 instrument channels, covering 1.2 to 1326.0 kHz."
       notably 136 and 193 kHz, are almost always affected, whereas,           
       others are only affected for short intervals. Usually, this             
       interference is only a problem when the natural signals are             
-      weak."                                                                  
+      weak.
                                                                               
 Additional information associated with this data set is available in the      
 following files:                                                              
-                                                                              
-file                           contents                                       
-                                                                              
-http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA1_INST.CAT  VG1 PRA instrument description         
-http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA_JUP_HRES_DS.CAT   data set description            
-http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/PERSON.CAT            personnel information              
-http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/REF.CAT               key reference description          
-http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/DOCUMENT/INSTRUMENT     ASCII and HTML versions of the PRA   
-                                                                                            investigation description paper
 
++-----------------------------------------------------------------------------------------------------------------------------------+   
+|                                   file                                                         |    contents                      |
+| http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA1_INST.CAT       |VG1 PRA instrument description    |
+| http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA_JUP_HRES_DS.CAT |  data set description            |
+| http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/PERSON.CAT              | personnel information            |
+| http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/REF.CAT                 |key reference description         |
+| http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/DOCUMENT/INSTRUMENT             |ASCII and HTML versions of the PRA|   
+|                                                                                                |investigation description paper   |
++-----------------------------------------------------------------------------------------------------------------------------------+                                                                                                                                                            
          </Description>
          <Acknowledgement>When using delivered data please acknowledge the data provider and 
 PDS in accordance with the PDS citation policy. Full details can be found at:

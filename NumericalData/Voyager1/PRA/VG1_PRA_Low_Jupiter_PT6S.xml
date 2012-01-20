@@ -5,7 +5,7 @@
    <NumericalData>
       <ResourceID>spase://VWO/NumericalData/Voyager1/PRA/VG1_PRA_Low_Jupiter_PT6S</ResourceID>
       <ResourceHeader>
-         <ResourceName>Voyager 1 PRA Lowband Reciver Jupiter encounter, 6 sec resolution</ResourceName>
+         <ResourceName>Voyager 1 PRA Lowband Receiver Jupiter encounter, 6 sec resolution</ResourceName>
          <AlternateName>VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</AlternateName>
          <ReleaseDate>2012-01-10T00:00:00.000</ReleaseDate>
          <Description>

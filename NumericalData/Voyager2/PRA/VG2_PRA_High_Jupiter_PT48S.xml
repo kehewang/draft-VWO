@@ -24,8 +24,8 @@
 	sense was reversed, i.e., was changed from RH to LH or vice versa. Thus the 
 	time required for making a measurement of both the RH and LH intensity 
 	components at both senses of elliptical polarization at a given frequency was 
-	12 sec. The data used in the present paper consisted of successive averages 
-	of 4 pairs of RH and LH intensity measurements, each average spanning an interval of 48 sec.
+	12 sec. The data consists of successive averages of 4 pairs of RH and LH 
+	intensity measurements, each average spanning an interval of 48 sec.
 
 	The format of these binary data files is as follows:
 
@@ -66,9 +66,7 @@
       measurement, Astron. Astrophys., 281, 945-954, 1994. and references therein.
 
           </Description>
-         <Acknowledgement>When using delivered data please acknowledge the data provider and 
-PDS in accordance with the PDS citation policy. Full details can be found at:
-http://ppi.pds.nasa.gov/citations_policy.jsp
+         <Acknowledgement>When using delivered data please acknowledge the data provider.
          </Acknowledgement>
          <Contact>
            <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
@@ -88,7 +86,7 @@ http://ppi.pds.nasa.gov/citations_policy.jsp
       </InformationURL>
       <InformationURL>
               <Name>IDL program - convertvoyHIband</Name>
-               <URL>http://vwo.nasa.gov/convertvoyHIband.txt</URL>
+               <URL>http://vwo.nasa.gov/utils/Voyager_PRA/convertvoyHIband.txt</URL>
               <Description>An IDL program that will read these Voyager PRA highband binary files and convert to IDL save sets.
          	</Description>
       </InformationURL>

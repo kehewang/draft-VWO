@@ -80,7 +80,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>Access to Spectrogram plots of Voyager 2 PRA Highband 48 second resolution data</Name>
-            <URL>http://vwo.nasa.gov/Voyager2/PRA_HIGHBAND/</URL>
+            <URL>http://vwo.nasa.gov/datasets/Voyager2/PRA_HIGHBAND/</URL>
             <Description>
             </Description>
             <Language>en</Language>

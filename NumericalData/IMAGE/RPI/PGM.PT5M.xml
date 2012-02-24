@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <!-- Version of the CCSDS_PGM_PT5M document: v0.3 February 25, 2009  -->
+  <NumericalData>
+    <ResourceID>spase://VWO/NumericalData/IMAGE/RPI/PGM.PT5M</ResourceID>
+    <ResourceHeader>
+      <ResourceName>RPI Plasmagram Telemetry Data</ResourceName>
+      <ReleaseDate>2012-02-24T17:31:11Z</ReleaseDate>
+      <Description>RPI plasmagram telemetry data files, received signal strength in the frequency-delay frame. Formatted as instrument telemetry packets wrapped in the CCSDS envelope. Data can be viewed/edited by BinBrowser software, see http://ulcar.uml.edu for details. Data model document is available at http://ulcar.uml.edu/rpi.html. RPI PLasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the radar pulses.  Radar echoes from important magnetospheric structures, such as the magnetopause and the plasmapause, appear as traces on plasmagrams. Plasmagram traces are intermixed with vertical signatures corresponding to the locally excited plasma resonances and various natural emissions propagating in space. </Description>
+      <Acknowledgement/>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IMAGE RPIAnywhere Download Page</Name>
+        <URL>http://car.uml.edu/Installation/install_all.htm</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>IMAGE RPI Instrument Page</Name>
+        <URL>http://image.gsfc.nasa.gov/rpi/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>IMAGE RPI Instrument Page at UML</Name>
+        <URL>http://ulcar.uml.edu/rpi.html</URL>
+      </InformationURL>
+      <PriorID>spase://VWO/NumericalData/IMAGE/RPI/CCSDS_PGM_PT5M</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <!-- This remains to be added to SMWG -->
+      <RepositoryID>spase://SMWG/Repository/UML/RPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>RPI Plasmagram Telemetry homepage</Name>
+        <!-- This link is not available yet -->
+        <!-- Populating query parameters is not available yet -->
+        <URL>http://car.uml.edu:8080/common/RPIQueryPlasmagramsNumeric?start=TIME1&amp;stop=TIME2&amp;rating=RATE&amp;option=OPTION</URL>
+        <Description>RPI mission data repository at UML, containing links to data query and retrieval servelets. This link points to a query servelet that accepts start and stop times from a user dialog and return a document with links to SPASE granules.</Description>
+      </AccessURL>
+      <Format>Binary</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement/>
+    </AccessInformation>
+    <ProviderProcessingLevel>MET to UT conversion using clock drift data</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/RPI</InstrumentID>
+    <MeasurementType>Waves.Active</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2000-04-21T20:24:42Z</StartDate>
+        <StopDate>2005-12-11T02:43:10Z</StopDate>
+        <Note>Cadence of plasmagram measurements is variable depending on the science objective and RPI operating schedule design</Note>
+      </TimeSpan>
+      <Cadence>PT5M</Cadence>
+    </TemporalDescription>
+    <SpectralRange>RadioFrequency</SpectralRange>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+    <Caveats>Less than 20% of all plasmagrams contain signatures of remote reflections from magnetospheric plasma structures. The RPI instrument is a radar of opportunity: for its 10 Watt signal to reflect at a remote location as far as 40,000 km away, return to the spacecraft location, and appear above the noise level to be detected, a number of conditions needs to be satisfied. Plasmagram data exploration requires a substantial manual labor expense.</Caveats>
+    <!-- This is the source data, no input resource was used to generate this, so leave blank -->
+    <Parameter>
+      <Name>Epoch</Name>
+      <Description>Time Tag of measurement start</Description>
+      <Units>ms</Units>
+      <UnitsConversion>1e-3&gt;s</UnitsConversion>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Received signal strength in the frequency-range frame</Name>
+      <Description>Received signal strength as function of operating frequency and delay time</Description>
+      <Units>nV/m</Units>
+      <UnitsConversion>1e-9&gt;V/m</UnitsConversion>
+      <Field>
+        <Qualifier>Magnitude</Qualifier>
+        <FieldQuantity>Electric</FieldQuantity>
+        <FrequencyRange>
+          <SpectralRange>RadioFrequency</SpectralRange>
+          <Low>3</Low>
+          <High>3000</High>
+          <Units>kHz</Units>
+        </FrequencyRange>
+      </Field>
+    </Parameter>
+  </NumericalData>
+</Spase>

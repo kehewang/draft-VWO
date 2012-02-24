@@ -58,7 +58,7 @@
         </Description>
         <Language>en</Language>
       </InformationURL>
-    <PriorID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_H7_HFWR_25kHz_PT9.2S</PriorID>
+      <PriorID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_H7_HFWR_25kHz_PT9.2S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>

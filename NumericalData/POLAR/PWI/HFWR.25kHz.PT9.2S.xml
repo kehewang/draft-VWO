@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
   <Version>2.2.1</Version>
   <NumericalData>
-    <ResourceID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_H7_HFWR_25kHz_PT9.2S</ResourceID>
+    <ResourceID>spase://VWO/NumericalData/POLAR/PWI/HFWR.25kHz.PT9.2S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Plasma Wave Instrument, High Frequency Waveform Receiver, 25kHz bandwidth, 6-channel fields</ResourceName>
-      <ReleaseDate>2012-02-21T06:14:38Z</ReleaseDate>
+      <ReleaseDate>2012-02-24T16:49:03Z</ReleaseDate>
       <Description>PWI&gt;Plasma Wave Instrument
 
         Reference: Gurnett, D.A. et al, The Polar plasma wave instrument,
@@ -58,6 +58,7 @@
         </Description>
         <Language>en</Language>
       </InformationURL>
+    <PriorID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_H7_HFWR_25kHz_PT9.2S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>

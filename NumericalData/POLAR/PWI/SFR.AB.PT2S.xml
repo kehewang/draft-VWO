@@ -1,12 +1,12 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
    <Version>2.2.0</Version>
    <NumericalData>
-      <ResourceID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_SFR_AB_CDF_PT2S</ResourceID>
+      <ResourceID>spase://VWO/NumericalData/POLAR/PWI/SFR.AB.PT2S</ResourceID>
       <ResourceHeader>
          <ResourceName>Polar Plasma Wave Instrument, Sweep Frequency Receivers A and B - 2 sec resolution fields </ResourceName>
          <AlternateName>PO_H1_PWI</AlternateName>
          <AlternateName>Polar PWI SFR A and B CDFs at NASA's CDAWeb</AlternateName>
-         <ReleaseDate>2011-04-10T12:00:00Z</ReleaseDate>
+         <ReleaseDate>2012-02-24T16:48:25Z</ReleaseDate>
          <Description>
          The PO_H1_PWI CDF files contain spectral densities of magnetic and electric field measurements from the Sweep Frequency Receiver-A and B. These files also contain correlation, electron cyclotron frequency, upper hybrid frequency and electron number density data. 
 
@@ -42,6 +42,7 @@ The Polar PWI Sweep Frequency Receiver-B (SFR-B) collected data from March 1996 
 		</InformationURL>
 		<Association/>
 		<PriorID/>
+      <PriorID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_SFR_AB_CDF_PT2S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

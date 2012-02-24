@@ -3,11 +3,11 @@
    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
    <Version>2.2.1</Version>
    <NumericalData>
-      <ResourceID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_LFWR_PT0.01S</ResourceID>
+      <ResourceID>spase://VWO/NumericalData/POLAR/PWI/LFWR.PT0.01S</ResourceID>
       <ResourceHeader>
          <ResourceName>Polar Plasma Wave Instrument, Low Frequency Waveform Receiver, ~0.01 sec resolution fields</ResourceName>
          <AlternateName>PO_H2_PWI</AlternateName>
-         <ReleaseDate>2011-11-28T00:00:00.000</ReleaseDate>
+         <ReleaseDate>2012-02-24T16:48:42Z</ReleaseDate>
          <Description>
          	         The Low-Frequency Waveform Receiver (LFWR) is designed to provide an extension of the High Frequency Waveform Receiver into the frequency range below 25 Hz. The LFWR consists of six parallel low-pass filters connected to the three orthogonal electric field sensors and to the triaxial search coils. The input signals are band limited to a frequency range from 0.1 to 25 Hz and are sam- pled by a 12-bit analog-to-digital converter. The six LFWR channels are sampled simultaneously at a rate of 100 samples s-1. The dynamic range of the LFWRis approximately 72 dB with fixed gain.
          	
@@ -37,6 +37,7 @@
 			<Description>A Polar PWI page is maintained at the University of Iowa with descriptions of interpretation issues, user's guides, data availability tables, a form for creating summary plots and access to pregenerated dynamic spectrograms.</Description>
 			<Language>en</Language>
 		</InformationURL>
+      <PriorID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_LFWR_PT0.01S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

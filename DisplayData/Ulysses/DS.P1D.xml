@@ -1,13 +1,14 @@
+<?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-    <Version>2.2.0</Version>
-    <!-- Version of the GIF_DS_PT128S document: v1.0 October 25, 2010  -->
-    <DisplayData>
-        <ResourceID>spase://VWO/DisplayData/Ulysses/URAP/GIF_DS_PT128S</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Ulysses URAP Daily Color Dynamic Spectrogram Plot</ResourceName>
-            <AlternateName>Ulysses Unified Radio and Plasma wave (URAP) Investigation Daily Color Dynamic Spectrogram Plot</AlternateName>
-            <ReleaseDate>2010-10-25T12:00:00Z</ReleaseDate>
-            <Description>from URAP Users Notes: Guide  To  The  Archiving  Of  Ulysses Radio  And  Plasma  Wave  Data
+  <Version>2.2.0</Version>
+  <!-- Version of the GIF_DS_PT128S document: v1.0 October 25, 2010  -->
+  <DisplayData>
+    <ResourceID>spase://VWO/DisplayData/Ulysses/URAP/DS.P1D</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ulysses URAP Daily Color Dynamic Spectrogram Plot</ResourceName>
+      <AlternateName>Ulysses Unified Radio and Plasma wave (URAP) Investigation Daily Color Dynamic Spectrogram Plot</AlternateName>
+      <ReleaseDate>2012-02-24T17:47:25Z</ReleaseDate>
+      <Description>from URAP Users Notes: Guide  To  The  Archiving  Of  Ulysses Radio  And  Plasma  Wave  Data
 by Roger Hess, Robert MacDowall, Denise Lengyel-Frey
 
                    March 15, 1995 - version 1.0
@@ -229,63 +230,64 @@ The URL for the URAP Home Page at Goddard Space Flight
 Center is
                  http://urap.gsfc.nasa.gov/
 </Description>
-            <Acknowledgement></Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Robert.J.MacDowall</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Roger.A.Hess</PersonID>
-                <Role>TechnicalContact</Role>
-            </Contact> 
-            <InformationURL>
-                <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
-                <URL>http://urap.gsfc.nasa.gov/home.html</URL>
-                <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
-                <Language>en</Language>
-            </InformationURL>
-            <InformationURL>
-                <Name>Ulysses URAP Instrument Page at ESA</Name>
-                <URL>http://helio.esa.int/ulysses/archive/urap.html</URL>
-                <Description></Description>
-                <Language>en</Language>
-            </InformationURL>
-            <Association/>
-            <PriorID/>
-        </ResourceHeader>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>Ulysses URAP FTP site</Name>
-                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/radio/urap/</URL>
-                <Description>Repository of Ulysses URAP display and numerical data at NASA GSFC, containing GIF and PS plots of dynamic spectrograms as well as ASCII data sets. </Description>
-                <Language>en</Language>
-            </AccessURL>
-            <Format>GIF</Format>
-            <Encoding>None</Encoding>
-            <Acknowledgement></Acknowledgement>
-        </AccessInformation>
-        <ProcessingLevel>Calibrated</ProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/Ulysses/URAP</InstrumentID>
-        <MeasurementType>Waves.Passive</MeasurementType>
-        <MeasurementType>Spectrum</MeasurementType>
-        <TemporalDescription>
-            <TimeSpan>
-                <StartDate>1990-11-03T19:30:00Z</StartDate>
-                <StopDate>2007-11-26T18:30:00Z</StopDate>
-                <Note>In Cadence below, the 128 seconds refers to the nominal interval between measurements used to make up a 24-hour dynamic spectrogram. Display Cadence (further below) refers to the 24-hour interval between the start of two successive dynamic spectrograms.</Note>
-            </TimeSpan>
-            <Cadence>PT128S</Cadence>
-        </TemporalDescription>
-        <SpectralRange>RadioFrequency</SpectralRange>
-        <DisplayCadence>P1D</DisplayCadence>
-        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
-        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-        <ObservedRegion>Jupiter</ObservedRegion>
-        <ObservedRegion>Sun.Corona</ObservedRegion>
-        <Caveats>Ulyssses URAP Interference and other issues affecting data interpretation - 
+      <Acknowledgement/>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.J.MacDowall</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Roger.A.Hess</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
+        <URL>http://urap.gsfc.nasa.gov/home.html</URL>
+        <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
+        <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>Ulysses URAP Instrument Page at ESA</Name>
+        <URL>http://helio.esa.int/ulysses/archive/urap.html</URL>
+        <Description/>
+        <Language>en</Language>
+      </InformationURL>
+      <Association/>
+      <PriorID/>
+      <PriorID>spase://VWO/DisplayData/Ulysses/URAP/GIF_DS_PT128S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Ulysses URAP FTP site</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/radio/urap/</URL>
+        <Description>Repository of Ulysses URAP display and numerical data at NASA GSFC, containing GIF and PS plots of dynamic spectrograms as well as ASCII data sets. </Description>
+        <Language>en</Language>
+      </AccessURL>
+      <Format>GIF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement/>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Ulysses/URAP</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>Spectrum</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1990-11-03T19:30:00Z</StartDate>
+        <StopDate>2007-11-26T18:30:00Z</StopDate>
+        <Note>In Cadence below, the 128 seconds refers to the nominal interval between measurements used to make up a 24-hour dynamic spectrogram. Display Cadence (further below) refers to the 24-hour interval between the start of two successive dynamic spectrograms.</Note>
+      </TimeSpan>
+      <Cadence>PT128S</Cadence>
+    </TemporalDescription>
+    <SpectralRange>RadioFrequency</SpectralRange>
+    <DisplayCadence>P1D</DisplayCadence>
+    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    <ObservedRegion>Jupiter</ObservedRegion>
+    <ObservedRegion>Sun.Corona</ObservedRegion>
+    <Caveats>Ulyssses URAP Interference and other issues affecting data interpretation - 
 see Description section 6. above also see
 Ulysses URAP - Interference and other issues affecting data interpretation
 http://vwo.nasa.gov/urap/URAP_InterpretationIssues/urap_interpretation.html
@@ -293,46 +295,46 @@ and
 URAP - User Notes
 http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         </Caveats>
-        <!-- Keywords pertaining to the data presentation -->
-        <Keyword>Dynamic Spectrogram</Keyword>
-        <Keyword>Spectrogram</Keyword>
-        <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
-        <Keyword>Solar radio burst</Keyword>
-        <Keyword>Jovian Kilometric Radiation</Keyword>
-        <Keyword>KOM</Keyword>
-        <Keyword>bKOM</Keyword>
-        <Keyword>nKOM</Keyword>
-        <Keyword>Jovian Hectometric Radiation</Keyword>
-        <Keyword>HOM</Keyword>
-        <Keyword>Type II Solar radio burst</Keyword>
-        <Keyword>Type III Solar radio burst</Keyword>
-        <Keyword>UHR</Keyword>
-        <Keyword>Upper hybrid resonance</Keyword>
-        <Keyword>VLF Emissions</Keyword>
-        <Keyword>ULF Emissions</Keyword>
-        <Keyword>Whistler</Keyword>
-        <Parameter>
-             <Name>Decibels</Name>
-             <Description> Data_in_dB = 10. * log10(total power/background power)
+    <!-- Keywords pertaining to the data presentation -->
+    <Keyword>Dynamic Spectrogram</Keyword>
+    <Keyword>Spectrogram</Keyword>
+    <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
+    <Keyword>Solar radio burst</Keyword>
+    <Keyword>Jovian Kilometric Radiation</Keyword>
+    <Keyword>KOM</Keyword>
+    <Keyword>bKOM</Keyword>
+    <Keyword>nKOM</Keyword>
+    <Keyword>Jovian Hectometric Radiation</Keyword>
+    <Keyword>HOM</Keyword>
+    <Keyword>Type II Solar radio burst</Keyword>
+    <Keyword>Type III Solar radio burst</Keyword>
+    <Keyword>UHR</Keyword>
+    <Keyword>Upper hybrid resonance</Keyword>
+    <Keyword>VLF Emissions</Keyword>
+    <Keyword>ULF Emissions</Keyword>
+    <Keyword>Whistler</Keyword>
+    <Parameter>
+      <Name>Decibels</Name>
+      <Description> Data_in_dB = 10. * log10(total power/background power)
 The data for electric field observations are in units of microvolts**2
 Hz**(-1) as are the calculated background levels.  The units for
 magnetic field observations (the bottom panels on the page) are
 nT**2 Hz**(-1).</Description>
-             <Caveats/>
-             <Units/>
-             <Wave>
-                  <Qualifier>Magnitude</Qualifier>
-                  <Qualifier>Pseudo</Qualifier>
-                  <WaveType>PlasmaWaves</WaveType>
-                  <WaveQuantity>Intensity</WaveQuantity>
-                  <FrequencyRange>
-                        <SpectralRange>RadioFrequency</SpectralRange>
-                        <Low>0.08</Low>
-                        <High>940000</High>
-                        <Units>Hz</Units>
-                  </FrequencyRange>
-            </Wave>
-       </Parameter>
-       <Extension/>
-    </DisplayData>
+      <Caveats/>
+      <Units/>
+      <Wave>
+        <WaveType>PlasmaWaves</WaveType>
+        <Qualifier>Magnitude</Qualifier>
+        <Qualifier>Pseudo</Qualifier>
+        <WaveQuantity>Intensity</WaveQuantity>
+        <FrequencyRange>
+          <SpectralRange>RadioFrequency</SpectralRange>
+          <Low>0.08</Low>
+          <High>940000</High>
+          <Units>Hz</Units>
+        </FrequencyRange>
+      </Wave>
+    </Parameter>
+    <Extension/>
+  </DisplayData>
 </Spase>

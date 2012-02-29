@@ -3,10 +3,10 @@
   <Version>2.2.0</Version>
   <!-- Version of the CCSDS_PGM_PT5M document: v0.3 February 25, 2009  -->
   <NumericalData>
-    <ResourceID>spase://VWO/NumericalData/IMAGE/RPI/PGM.PT5M</ResourceID>
+    <ResourceID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CCSDS.PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>RPI Plasmagram Telemetry Data</ResourceName>
-      <ReleaseDate>2012-02-24T17:31:11Z</ReleaseDate>
+      <ReleaseDate>2012-02-29T21:50:05Z</ReleaseDate>
       <Description>RPI plasmagram telemetry data files, received signal strength in the frequency-delay frame. Formatted as instrument telemetry packets wrapped in the CCSDS envelope. Data can be viewed/edited by BinBrowser software, see http://ulcar.uml.edu for details. Data model document is available at http://ulcar.uml.edu/rpi.html. RPI PLasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the radar pulses.  Radar echoes from important magnetospheric structures, such as the magnetopause and the plasmapause, appear as traces on plasmagrams. Plasmagram traces are intermixed with vertical signatures corresponding to the locally excited plasma resonances and various natural emissions propagating in space. </Description>
       <Acknowledgement/>
       <Contact>

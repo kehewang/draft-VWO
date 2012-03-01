@@ -77,6 +77,7 @@ These data consist of output from the SWAVES HFR and LFR receivers.
          <Cadence>PT1M</Cadence>
       </TemporalDescription>
       <SpectralRange>RadioFrequency</SpectralRange>
+      <DisplayCadence>P1D</DisplayCadence>
       <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
       <ObservedRegion>Heliosphere.Inner</ObservedRegion>
       <ObservedRegion>Sun</ObservedRegion>

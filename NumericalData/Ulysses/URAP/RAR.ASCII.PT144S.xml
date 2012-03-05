@@ -6,15 +6,12 @@
     <ResourceHeader>
       <ResourceName>Ulysses URAP RAR 144 Second Data in ASCII</ResourceName>
       <AlternateName>Ulysses Unified Radio and Plasma Wave Experiment - Radio Astronomy Receiver 144 Second Resolution ASCII Data</AlternateName>
-      <ReleaseDate>2012-02-24T17:45:04Z</ReleaseDate>
+      <ReleaseDate>2012-03-05T17:45:04Z</ReleaseDate>
       <Description>This data set contains 144 second averages of the electric field 
 intensities from the Ulysses Unified Radio and Plasma Wave 
 Instrument Radio Astronomy Receiver (URAP/RAR).
 
 The following notes are taken from the Guide to Archiving of Ulysses URAP Data 
-revised January 27, 2010 - version 1.3
-ftp://ftp.rssd.esa.int/pub/ulysses/URAP/docs/others/archived_data_user_guide.html
-
 
 Appendix C: USER'S GUIDE TO RAR 144 SECOND AVERAGED DATA FILES
 The time period of 144 seconds was used for the averaging period because that is the basic cycling time of the instrument. The RAR continually cycles through a list of frequencies. There are 16 lists and the list currently in use is chosen by telecommand. The time period to complete the list is 144 seconds for the high band of the receiver (for telemetry bit rates of 1024 and 512 bps, the cycle time is 64 seconds for bit rates of 256 and 128 bps), after which the instrument begins with the list again. Therefore this period was chosen for the averaging period.
@@ -183,22 +180,21 @@ Ser., 92(2), 291-316 (1992).
         <Language>en</Language>
       </InformationURL>
       <InformationURL>
-        <Name>Guide to Archiving of Ulysses URAP Data</Name>
-        <URL>ftp://ftp.rssd.esa.int/pub/ulysses/URAP/docs/others/archived_data_user_guide.html</URL>
-        <Description>by Roger Hess, Robert MacDowall, Denise Lengyel-Frey, formerly known as GUIDE TO THE ARCHIVING OF ULYSSES
-RADIO AND PLASMA WAVE DATA, revised January 27, 2010 - version 1.3</Description>
-        <Language>en</Language>
-      </InformationURL>
+         <Name>URAP RAV Data Files</Name>
+         <URL>http://urap.gsfc.nasa.gov/rav_data_files.html</URL>
+         <Description>Description of the RAR 144 second data files format.</Description>
+         <Language>en</Language>
+       </InformationURL>
+       <InformationURL>
+          <Name>Guide to the Archiving of Ulysses Radio And Plasma Wave Data, revised June 8, 1999 - version. 1.2</Name>
+          <URL>http://ulysses-ops.esa.int/ulysses/archive/urap_un.html</URL>
+          <Description>by Roger Hess, Robert MacDowall, Denise Lengyel-Frey</Description>
+          <Language>en</Language>
+       </InformationURL>            
       <InformationURL>
-        <Name>Ulysses URAP Instrument Page at ESA</Name>
+        <Name>Ulysses Mission Page at ESA</Name>
         <URL>http://www.rssd.esa.int/index.php?project=ULYSSES</URL>
         <Description/>
-        <Language>en</Language>
-      </InformationURL>
-      <InformationURL>
-        <Name>Ulysses URAP Instrument FTP site at ESA</Name>
-        <URL>ftp://ftp.rssd.esa.int/pub/ulysses/URAP/</URL>
-        <Description>ESA ftp site including links to data, documents and software</Description>
         <Language>en</Language>
       </InformationURL>
       <InformationURL>
@@ -224,6 +220,21 @@ RADIO AND PLASMA WAVE DATA, revised January 27, 2010 - version 1.3</Description>
       </AccessURL>
       <Format>Text.ASCII</Format>
       <Acknowledgement>Please acknowledge the Principal Investigator, R J MacDowall, of the NASA Goddard Space Flight Center, Greenbelt, MD, USA, and Mike Lancaster and Cecil Tranquille of the Ulysses Data System, ESA/ESTEC, Noordwijk, NL </Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID> 
+      <Availability>Online</Availability> 
+      <AccessRights>Open</AccessRights> 
+      <AccessURL>
+         <Name>Ulysses URAP Data at NASA's GSFC URAP page</Name> 
+         <URL>http://urap.gsfc.nasa.gov/download.html</URL> 
+         <Description>A web form to access Ulysses/URAP RAR 144 ASCII format data files
+         </Description> 
+         <Language>en</Language> 
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>Please acknowledge the Principal Investigator, R J MacDowall, of the NASA Goddard Space Flight Center, Greenbelt, MD
+      </Acknowledgement> 
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Ulysses/URAP</InstrumentID>

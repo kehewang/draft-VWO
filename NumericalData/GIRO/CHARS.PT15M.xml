@@ -37,8 +37,8 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>GIRO access to ionogram-derived ionospheric characteristics</Name>
-            <URL>http://car.uml.edu/common/DIDBGetValues?ursiCode=[par1]&amp;charName=[par2]&amp;fromDate=[date1]&amp;toDate=[date2]</URL>
-            <Description>Call of GIRO servlet that access DIDBase repository and retrieves the list of characteristics. Servlet parameters: [par1] is URSI code of the GIRO ionospheric station, see http://ulcar.uml.edu/DIDBase/ for availability list of stations; [par2] is comma-separated list of standard URSI characteristic names, e.g., foF2; [date1] and [date2] are ISO 8061 stamps of from and to dates for the call. </Description>
+            <URL>http://giro.uml.edu/didbase/scaled.php</URL>
+            <Description>GIRO webpage that accesses DIDBase repository and retrieves the list of characteristics.</Description>
             <Language>en</Language>
          </AccessURL>
          <Format>Text.ASCII</Format>

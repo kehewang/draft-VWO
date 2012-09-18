@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Cluster-Tango/WBD/PT0.0000046S</ResourceID>
     <ResourceHeader>
@@ -125,7 +125,6 @@ Calibration Report, WBD Interface Control Document, and data
 interpretation and caveat descriptions.</Description>
         <Language>en</Language>
       </InformationURL>
-      <Association/>
       <PriorID/>
       <PriorID>spase://VWO/NumericalData/Cluster-Tango/WBD/Cluster_4_Waveform_WBD</PriorID>
     </ResourceHeader>
@@ -153,8 +152,23 @@ C4_WAVEFORM_WBD.</Description>
       <Acknowledgement>Users of the Cluster WBD data are encouraged to 
 acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I University of 
 Iowa and the Coordinated Data Analysis Web (CDAWeb) at the NASA 
-Goddard Space Flight Center, or the Cluster Active Archive, as appropriate, 
-as the source of the data in any publication.</Acknowledgement>
+Goddard Space Flight Center as the source of the data in any publication.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/CAA</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Restricted</AccessRights>
+      <AccessURL>
+        <Name>Access to Cluster WBD CEFs</Name>
+        <URL>http://caa.estec.esa.int/caa/home.xml/</URL>
+        <Description>Access to repository of Cluster 4 Wideband data in Cluster Exchange Format (CEF) at the  Cluster Active Archive</Description>
+        <Language>en</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Users of the Cluster WBD data are encouraged to 
+acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I University of 
+Iowa and the Cluster Active Archive, as appropriate, as the source of the data in any publication.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Cluster-Tango/WBD</InstrumentID>

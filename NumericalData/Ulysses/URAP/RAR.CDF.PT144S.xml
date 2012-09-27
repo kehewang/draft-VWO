@@ -122,7 +122,7 @@ Ser., 92(2), 291-316 (1992).
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to Ulysses/URAP RAR 144 second CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/r144_m0/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ulysses/r144_m0/</URL>
         <Description>FTP access to repository of Ulysses/URAP RAR 144 CDFs at NASA 
 CDAWeb.Name of the data resource: UY_M0_R144</Description>
         <Language>en</Language>

@@ -134,7 +134,7 @@ interpretation and caveat descriptions.</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to Cluster WBD CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster_hires/c3/wbd/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/cluster_hires/c3/wbd/</URL>
         <Description>FTP access to repository of Cluster 3 WBD CDFs at NASA 
 CDAWeb.Name of the data resource: C3_WAVEFORM_WBD</Description>
         <Language>en</Language>

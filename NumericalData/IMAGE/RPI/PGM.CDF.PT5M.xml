@@ -47,7 +47,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>CDAWeb FTP access to IMAGE RPI wave measurements (plasmagrams)</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/image/rpi/</URL>
+            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/image/rpi/</URL>
             <Description>FTP access to repository of IMAGE RPI Plasmagrams in CDF format at NASA CDAWeb.</Description>
             <Language>en</Language>
          </AccessURL>

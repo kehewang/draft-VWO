@@ -41,7 +41,7 @@ The time range of each file is roughly 24 hours and consists of several passes o
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to FAST AC Fields CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/fast/acf/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/fast/acf/</URL>
         <Description>FTP access to repository of FAST AC Fields CDFs at NASA CDAWeb.
             Name of the data resource: FA_K0_ACF</Description>
         <Language>en</Language>

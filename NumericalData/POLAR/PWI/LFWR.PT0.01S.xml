@@ -44,7 +44,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to Polar PWI CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/pwi_h2/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/polar/pwi_h2/</URL>
         <Description>FTP access to repository of Polar PWI MCA CDFs at NASA CDAWeb.
             Name of the data resource: PO_H2_PWI</Description>
         <Language>en</Language>

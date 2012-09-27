@@ -55,7 +55,7 @@ These data consist of output from the SWAVES HFR and LFR receivers.
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to STEREO/WAVES Level 2 CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/stereo/combined/l2/swaves/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/stereo/combined/l2/swaves/</URL>
         <Description>FTP access to repository of SWAVES Level 2 data in CDF format at NASA CDAWeb.</Description>
         <Language>en</Language>
       </AccessURL>

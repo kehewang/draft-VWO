@@ -36,7 +36,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to Hawkeye VLF CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/hawkeye/h0/vlf/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/hawkeye/h0/vlf/</URL>
         <Description>FTP access to repository of Hawkeye VLF data in CDF format at NASA CDAWeb.</Description>
         <Language>en</Language>
       </AccessURL>

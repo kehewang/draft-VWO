@@ -61,7 +61,7 @@ For more information:
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to Wind/Waves daily CDF files</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/wav_h1/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/wind/wav_h1/</URL>
         <Description>FTP access to repository of Wind Waves passive wave measurements in CDF format at NASA CDAWeb.</Description>
         <Language>en</Language>
       </AccessURL>

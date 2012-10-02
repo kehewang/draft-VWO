@@ -1,14 +1,13 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VWO/NumericalData/Ulysses/URAP/RAR.CDF.PT144S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Ulysses URAP RAR 144 Second Data</ResourceName>
-      <AlternateName>Ulysses Unified Radio and Plasma Wave Experiment - Radio Astronomy Receiver 144 Second Resolution Data</AlternateName>
-      <AlternateName>UY_M0_R144</AlternateName>
-      <ReleaseDate>2012-02-24T17:45:04Z</ReleaseDate>
-      <Description>This data set contains 144 second averages of the electric field 
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <NumericalData>
+        <ResourceID>spase://VWO/NumericalData/Ulysses/URAP/RAR.CDF.PT144S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses URAP RAR 144 Second Data</ResourceName>
+            <AlternateName>Ulysses Unified Radio and Plasma Wave Experiment - Radio Astronomy Receiver 144 Second Resolution Data</AlternateName>
+            <AlternateName>UY_M0_R144</AlternateName>
+            <ReleaseDate>2012-02-24T17:45:04Z</ReleaseDate>
+            <Description>This data set contains 144 second averages of the electric field 
 intensities from the Unified Radio and Plasma Wave 
 Instrument Radio Astronomy Receiver.
 
@@ -91,71 +90,76 @@ Ser., 92(2), 291-316 (1992).
 
 
 </Description>
-      <Acknowledgement>Please acknowledge the Principal Investigator, R J MacDowall, of the NASA Goddard Space Flight Center, Greenbelt, MD, USA, and Mike Lancaster and Cecil Tranquille of the Ulysses Data System, ESA/ESTEC, Noordwijk, NL </Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Robert.J.MacDowall</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Roger.A.Hess</PersonID>
-        <Role>TechnicalContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
-        <URL>http://urap.gsfc.nasa.gov/home.html</URL>
-        <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
-        <Language>en</Language>
-      </InformationURL>
-      <InformationURL>
-        <Name>Ulysses URAP Instrument Page at ESA</Name>
-        <URL>http://www.rssd.esa.int/helio/archive/urap.html</URL>
-        <Description/>
-        <Language>en</Language>
-      </InformationURL>
-      <Association/>
-      <PriorID/>
-      <PriorID>spase://VWO/NumericalData/Ulysses/URAP/Ulysses_RAR_PT144S</PriorID>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>CDAWeb FTP access to Ulysses/URAP RAR 144 second CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ulysses/r144_m0/</URL>
-        <Description>FTP access to repository of Ulysses/URAP RAR 144 CDFs at NASA 
+            <Acknowledgement>Please acknowledge the Principal Investigator, R J MacDowall, of the NASA Goddard Space Flight Center, Greenbelt, MD, USA, and Mike Lancaster and Cecil Tranquille of the Ulysses Data System, ESA/ESTEC, Noordwijk, NL </Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.J.MacDowall</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Roger.A.Hess</PersonID>
+                <Role>TechnicalContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
+                <URL>http://urap.gsfc.nasa.gov/home.html</URL>
+                <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
+                <Language>en</Language>
+            </InformationURL>
+            <InformationURL>
+                <Name>Ulysses URAP Instrument Page at ESA</Name>
+                <URL>http://www.rssd.esa.int/helio/archive/urap.html</URL>
+                <Description/>
+                <Language>en</Language>
+            </InformationURL>
+            <Association/>
+            <PriorID/>
+            <PriorID>spase://VWO/NumericalData/Ulysses/URAP/Ulysses_RAR_PT144S</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap_cdaweb/r144_m0/</URL>
+                <Description>FTP access to repository of Ulysses/URAP RAR 144 CDFs at NASA 
 CDAWeb.Name of the data resource: UY_M0_R144</Description>
-        <Language>en</Language>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb web access portal to Ulysses/URAP RAR 144 second CDF data</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
-        <Description>Repository of Ulysses/URAP RAR data in CDF format at NASA CDAWeb, 
+                <Language>en</Language>
+            </AccessURL>
+            <AccessURL>
+                <Name>SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap_cdaweb/r144_m0/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <Description>Repository of Ulysses/URAP RAR data in CDF format at NASA CDAWeb, 
 accessible via web interface. Name of the data resource: 
 UY_M0_R144.</Description>
-        <Language>en</Language>
-      </AccessURL>
-      <Format>CDF</Format>
-      <Encoding>None</Encoding>
-      <Acknowledgement>Please acknowledge the Principal Investigator, R J MacDowall, of the NASA Goddard Space Flight Center, Greenbelt, MD, USA, and Mike Lancaster and Cecil Tranquille of the Ulysses Data System, ESA/ESTEC, Noordwijk, NL </Acknowledgement>
-    </AccessInformation>
-    <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Ulysses/URAP</InstrumentID>
-    <MeasurementType>Waves.Passive</MeasurementType>
-    <MeasurementType>ElectricField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1990-11-03T19:30:00Z</StartDate>
-        <StopDate>2007-11-26T18:30:00Z</StopDate>
-      </TimeSpan>
-      <Cadence>PT144S</Cadence>
-    </TemporalDescription>
-    <SpectralRange>RadioFrequency</SpectralRange>
-    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
-    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    <ObservedRegion>Jupiter</ObservedRegion>
-    <ObservedRegion>Sun.Corona</ObservedRegion>
-    <Caveats>Ulyssses URAP Interference and other issues affecting data interpretation - see 
+                <Language>en</Language>
+            </AccessURL>
+            <Format>CDF</Format>
+            <Encoding>None</Encoding>
+            <Acknowledgement>Please acknowledge the Principal Investigator, R J MacDowall, of the NASA Goddard Space Flight Center, Greenbelt, MD, USA, and Mike Lancaster and Cecil Tranquille of the Ulysses Data System, ESA/ESTEC, Noordwijk, NL </Acknowledgement>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Ulysses/URAP</InstrumentID>
+        <MeasurementType>Waves.Passive</MeasurementType>
+        <MeasurementType>ElectricField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1990-11-03T19:30:00Z</StartDate>
+                <StopDate>2007-11-26T18:30:00Z</StopDate>
+            </TimeSpan>
+            <Cadence>PT144S</Cadence>
+        </TemporalDescription>
+        <SpectralRange>RadioFrequency</SpectralRange>
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+        <ObservedRegion>Jupiter</ObservedRegion>
+        <ObservedRegion>Sun.Corona</ObservedRegion>
+        <Caveats>Ulyssses URAP Interference and other issues affecting data interpretation - see 
         Ulysses URAP - Interference and other issues affecting data interpretation
 http://vwo.nasa.gov/urap/URAP_InterpretationIssues/urap_interpretation.html
 and
@@ -163,173 +167,173 @@ URAP - User Notes
 http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
    </Caveats>
     <!-- Keywords pertaining to the data presentation -->
-    <Keyword>Dynamic Spectrogram</Keyword>
-    <Keyword>Spectrogram</Keyword>
+        <Keyword>Dynamic Spectrogram</Keyword>
+        <Keyword>Spectrogram</Keyword>
     <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
-    <Keyword>Solar radio burst</Keyword>
-    <Keyword>Jovian Kilometric Radiation</Keyword>
-    <Keyword>KOM</Keyword>
-    <Keyword>bKOM</Keyword>
-    <Keyword>Jovian Hectometric Radiation</Keyword>
-    <Keyword>HOM</Keyword>
-    <Keyword>Type II Solar radio burst</Keyword>
-    <Keyword>Type III Solar radio burst</Keyword>
-    <Keyword>UHR</Keyword>
-    <Keyword>Upper hybrid resonance</Keyword>
-    <Keyword>VLF Emissions</Keyword>
-    <Keyword>ULF Emissions</Keyword>
-    <Keyword>Whistler</Keyword>
-    <Parameter>
-      <Name>Time in NSSDC Epoch format</Name>
-      <ParameterKey>Epoch</ParameterKey>
-      <Description/>
-      <Units>ms</Units>
-      <Support>
-        <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Time in PB5 format</Name>
-      <ParameterKey>Time_PB5</ParameterKey>
-      <Description/>
-      <Structure>
-        <Size>3</Size>
-        <Element>
-          <Name>year</Name>
-          <Index>1</Index>
-          <Units>year</Units>
-          <ValidMin>1990</ValidMin>
-          <ValidMax>2007.0</ValidMax>
-        </Element>
-        <Element>
-          <Name>day of year</Name>
-          <Index>2</Index>
-          <Units>day</Units>
-          <ValidMin>0</ValidMin>
-          <ValidMax>365</ValidMax>
-        </Element>
-        <Element>
-          <Name>ms of day</Name>
-          <Index>3</Index>
-          <Units>ms</Units>
-          <ValidMin>0.0</ValidMin>
-          <ValidMax>8.64E+07</ValidMax>
-        </Element>
-      </Structure>
-      <Support>
-        <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Ulysses Mission Time</Name>
-      <ParameterKey>UMT</ParameterKey>
-      <Description>Ulysses Mission Time in days elapsed since 06-Oct-1990</Description>
-      <Units>days</Units>
-      <Support>
-        <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Low frequency polarization mode</Name>
+        <Keyword>Solar radio burst</Keyword>
+        <Keyword>Jovian Kilometric Radiation</Keyword>
+        <Keyword>KOM</Keyword>
+        <Keyword>bKOM</Keyword>
+        <Keyword>Jovian Hectometric Radiation</Keyword>
+        <Keyword>HOM</Keyword>
+        <Keyword>Type II Solar radio burst</Keyword>
+        <Keyword>Type III Solar radio burst</Keyword>
+        <Keyword>UHR</Keyword>
+        <Keyword>Upper hybrid resonance</Keyword>
+        <Keyword>VLF Emissions</Keyword>
+        <Keyword>ULF Emissions</Keyword>
+        <Keyword>Whistler</Keyword>
+        <Parameter>
+            <Name>Time in NSSDC Epoch format</Name>
+            <ParameterKey>Epoch</ParameterKey>
+            <Description/>
+            <Units>ms</Units>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Time in PB5 format</Name>
+            <ParameterKey>Time_PB5</ParameterKey>
+            <Description/>
+            <Structure>
+                <Size>3</Size>
+                <Element>
+                    <Name>year</Name>
+                    <Index>1</Index>
+                    <Units>year</Units>
+                    <ValidMin>1990</ValidMin>
+                    <ValidMax>2007.0</ValidMax>
+                </Element>
+                <Element>
+                    <Name>day of year</Name>
+                    <Index>2</Index>
+                    <Units>day</Units>
+                    <ValidMin>0</ValidMin>
+                    <ValidMax>365</ValidMax>
+                </Element>
+                <Element>
+                    <Name>ms of day</Name>
+                    <Index>3</Index>
+                    <Units>ms</Units>
+                    <ValidMin>0.0</ValidMin>
+                    <ValidMax>8.64E+07</ValidMax>
+                </Element>
+            </Structure>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Ulysses Mission Time</Name>
+            <ParameterKey>UMT</ParameterKey>
+            <Description>Ulysses Mission Time in days elapsed since 06-Oct-1990</Description>
+            <Units>days</Units>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Low frequency polarization mode</Name>
       <!-- 
  Parameter Key points to the CDF Variable in the file 
   -->
-      <ParameterKey>Lo_pol_mode</ParameterKey>
-      <Description>Low frequency polarization mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
-      <ValidMin>1</ValidMin>
-      <ValidMax>4</ValidMax>
-      <Support>
-        <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Low frequency summation mode</Name>
+            <ParameterKey>Lo_pol_mode</ParameterKey>
+            <Description>Low frequency polarization mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
+            <ValidMin>1</ValidMin>
+            <ValidMax>4</ValidMax>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Low frequency summation mode</Name>
       <!-- 
  Parameter Key points to the CDF Variable in the file 
   -->
-      <ParameterKey>Lo_sum_mode</ParameterKey>
-      <Description>Low frequency summation mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
-      <ValidMin>1</ValidMin>
-      <ValidMax>4</ValidMax>
-      <Support>
-        <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>High frequency polarization mode</Name>
+            <ParameterKey>Lo_sum_mode</ParameterKey>
+            <Description>Low frequency summation mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
+            <ValidMin>1</ValidMin>
+            <ValidMax>4</ValidMax>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>High frequency polarization mode</Name>
       <!-- 
  Parameter Key points to the CDF Variable in the file 
   -->
-      <ParameterKey>Hi_pol_mode</ParameterKey>
-      <Description>High frequency polarization mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
-      <ValidMin>1</ValidMin>
-      <ValidMax>4</ValidMax>
-      <Support>
-        <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>High frequency summation mode</Name>
+            <ParameterKey>Hi_pol_mode</ParameterKey>
+            <Description>High frequency polarization mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
+            <ValidMin>1</ValidMin>
+            <ValidMax>4</ValidMax>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>High frequency summation mode</Name>
       <!-- 
  Parameter Key points to the CDF Variable in the file 
   -->
-      <ParameterKey>Hi_sum_mode</ParameterKey>
-      <Description>High frequency summation mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
-      <Support>
-        <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Telemetry bit rate</Name>
+            <ParameterKey>Hi_sum_mode</ParameterKey>
+            <Description>High frequency summation mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Telemetry bit rate</Name>
       <!-- 
  Parameter Key points to the CDF Variable in the file 
   -->
-      <ParameterKey>IBPS</ParameterKey>
-      <Description>Telemetry bit rate (1: 128, 2: 256, 3: 512, 4: 1024 bps, 5: changed, 6: unknown)</Description>
-      <ValidMin>1</ValidMin>
-      <ValidMax>6</ValidMax>
-      <Support>
-        <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>RAR Channel Frequencies (kHz)</Name>
+            <ParameterKey>IBPS</ParameterKey>
+            <Description>Telemetry bit rate (1: 128, 2: 256, 3: 512, 4: 1024 bps, 5: changed, 6: unknown)</Description>
+            <ValidMin>1</ValidMin>
+            <ValidMax>6</ValidMax>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>RAR Channel Frequencies (kHz)</Name>
       <!-- 
  Parameter Key points to the CDF Variable in the file 
   -->
-      <ParameterKey>Chan_Freq</ParameterKey>
-      <Description>RAR Channel Frequencies (kHz)</Description>
-      <Units>kHz</Units>
-      <Structure>
-        <Size>76</Size>
-      </Structure>
-      <ValidMin>1.0</ValidMin>
-      <ValidMax>1000.0</ValidMax>
-      <Support>
-        <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>RAR Electric field intensity</Name>
+            <ParameterKey>Chan_Freq</ParameterKey>
+            <Description>RAR Channel Frequencies (kHz)</Description>
+            <Units>kHz</Units>
+            <Structure>
+                <Size>76</Size>
+            </Structure>
+            <ValidMin>1.0</ValidMin>
+            <ValidMax>1000.0</ValidMax>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>RAR Electric field intensity</Name>
       <!-- 
  Parameter Key points to the CDF Variable in the file 
   -->
-      <ParameterKey>Intensity</ParameterKey>
-      <Description>RAR Electric field intensity in 76 channels</Description>
-      <Units>microVolt/Hz**0.5</Units>
-      <ValidMin>0.01</ValidMin>
-      <ValidMax>100.0</ValidMax>
-      <Wave>
-        <WaveType>PlasmaWaves</WaveType>
-        <WaveQuantity>ACElectricField</WaveQuantity>
-        <FrequencyRange>
-          <SpectralRange>RadioFrequency</SpectralRange>
-          <Low>1.25</Low>
-          <High>940</High>
-          <Units>kHz</Units>
-        </FrequencyRange>
-      </Wave>
-    </Parameter>
-    <Extension/>
-  </NumericalData>
+            <ParameterKey>Intensity</ParameterKey>
+            <Description>RAR Electric field intensity in 76 channels</Description>
+            <Units>microVolt/Hz**0.5</Units>
+            <ValidMin>0.01</ValidMin>
+            <ValidMax>100.0</ValidMax>
+            <Wave>
+                <WaveType>PlasmaWaves</WaveType>
+                <WaveQuantity>ACElectricField</WaveQuantity>
+                <FrequencyRange>
+                    <SpectralRange>RadioFrequency</SpectralRange>
+                    <Low>1.25</Low>
+                    <High>940</High>
+                    <Units>kHz</Units>
+                </FrequencyRange>
+            </Wave>
+        </Parameter>
+        <Extension/>
+    </NumericalData>
 </Spase>

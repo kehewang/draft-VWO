@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VWO/NumericalData/Voyager1/PRA/Jupiter/High.PT48S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Voyager 1 PRA Highband Receiver Jupiter encounter, 48 sec resolution</ResourceName>
-      <ReleaseDate>2012-02-24T17:08:31Z</ReleaseDate>
-      <Description>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <NumericalData>
+        <ResourceID>spase://VWO/NumericalData/Voyager1/PRA/Jupiter/High.PT48S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Voyager 1 PRA Highband Receiver Jupiter encounter, 48 sec resolution</ResourceName>
+            <ReleaseDate>2012-02-24T17:08:31Z</ReleaseDate>
+            <Description>
 	Voyager 1 Planetary Radio Astronomy (PRA) Highband receiver daily files 
 	during Jupiter Encounter (1979-02-01 to 1979-04-13). Associated with these binary data are a series of quick-look GIF plots created using the binary data. 	The plots are available for both polarization channels.
 	
@@ -68,101 +67,101 @@
 
                                                                               
           </Description>
-      <Acknowledgement>When using delivered data please acknowledge the data provider.
+            <Acknowledgement>When using delivered data please acknowledge the data provider.
          </Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
-        <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
-        <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
+                <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
+                <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
          	</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>Planetary Radio Astronomy (PRA)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-084A-10</URL>
-        <Description>NSSDC Master Catalog description of the Voyager 1 PRA Instrument
+            </InformationURL>
+            <InformationURL>
+                <Name>Planetary Radio Astronomy (PRA)</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-084A-10</URL>
+                <Description>NSSDC Master Catalog description of the Voyager 1 PRA Instrument
          	</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>IDL program - convertvoyHIband</Name>
-        <URL>http://vwo.nasa.gov/utils/Voyager_PRA/convertvoyHIband.txt</URL>
-        <Description>An IDL program that will read these Voyager PRA highband binary files and convert to IDL save sets.
+            </InformationURL>
+            <InformationURL>
+                <Name>IDL program - convertvoyHIband</Name>
+                <URL>http://vwo.nasa.gov/utils/Voyager_PRA/convertvoyHIband.txt</URL>
+                <Description>An IDL program that will read these Voyager PRA highband binary files and convert to IDL save sets.
          	</Description>
-      </InformationURL>
-      <PriorID>spase://VWO/NumericalData/Voyager1/PRA/VG1_PRA_High_Jupiter_PT48S</PriorID>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>Access to Voyager 1 and 2 PRA Highband 48 second binary data files</Name>
-        <URL>http://www-pw.physics.uiowa.edu/voyager/data/pra/</URL>
-        <Description>Within this directory list are the binary data files for Voyager 1 and 2 PRA highband.
+            </InformationURL>
+            <PriorID>spase://VWO/NumericalData/Voyager1/PRA/VG1_PRA_High_Jupiter_PT48S</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Access to Voyager 1 and 2 PRA Highband 48 second binary data files</Name>
+                <URL>http://www-pw.physics.uiowa.edu/voyager/data/pra/</URL>
+                <Description>Within this directory list are the binary data files for Voyager 1 and 2 PRA highband.
             </Description>
-        <Language>en</Language>
-      </AccessURL>
-      <Format>Binary</Format>
-      <Encoding>None</Encoding>
-      <Acknowledgement>When using delivered data please acknowledge the data provider.</Acknowledgement>
-    </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/Voyager1/PRA</InstrumentID>
-    <MeasurementType>Waves.Passive</MeasurementType>
-    <MeasurementType>Spectrum</MeasurementType>
-    <MeasurementType>ElectricField</MeasurementType>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1979-02-01T00:00:00Z</StartDate>
-        <StopDate>1979-04-13T23:59:59Z</StopDate>
-      </TimeSpan>
-      <Cadence>PT48S</Cadence>
-    </TemporalDescription>
-    <SpectralRange>RadioFrequency</SpectralRange>
-    <ObservedRegion>Jupiter</ObservedRegion>
-    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    <!-- Keywords pertaining to the data presentation -->
-    <Keyword>Dynamic Spectrogram</Keyword>
-    <Keyword>Spectrogram</Keyword>
-    <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
-    <Keyword>Jupiter</Keyword>
-    <Keyword>Decametric Radio Emission</Keyword>
-    <Keyword>DAM</Keyword>
-    <Parameter>
-      <Name>Date</Name>
-      <Description>Year, month, and day of start in the format YYMMDD</Description>
-      <Support>
-        <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Millisecond</Name>
-      <Description>Milliseconds of day</Description>
-      <Units>ms</Units>
-      <Support>
-        <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Spectral Power</Name>
-      <Description>Electric field power spectral density,
+                <Language>en</Language>
+            </AccessURL>
+            <Format>Binary</Format>
+            <Encoding>None</Encoding>
+            <Acknowledgement>When using delivered data please acknowledge the data provider.</Acknowledgement>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Voyager1/PRA</InstrumentID>
+        <MeasurementType>Waves.Passive</MeasurementType>
+        <MeasurementType>Spectrum</MeasurementType>
+        <MeasurementType>ElectricField</MeasurementType>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1979-02-01T00:00:00Z</StartDate>
+                <StopDate>1979-04-13T23:59:59Z</StopDate>
+            </TimeSpan>
+            <Cadence>PT48S</Cadence>
+        </TemporalDescription>
+        <SpectralRange>RadioFrequency</SpectralRange>
+        <ObservedRegion>Jupiter</ObservedRegion>
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+      <!-- Keywords pertaining to the data presentation -->
+        <Keyword>Dynamic Spectrogram</Keyword>
+        <Keyword>Spectrogram</Keyword>
+      <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
+        <Keyword>Jupiter</Keyword>
+        <Keyword>Decametric Radio Emission</Keyword>
+        <Keyword>DAM</Keyword>
+        <Parameter>
+            <Name>Date</Name>
+            <Description>Year, month, and day of start in the format YYMMDD</Description>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Millisecond</Name>
+            <Description>Milliseconds of day</Description>
+            <Units>ms</Units>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Spectral Power</Name>
+            <Description>Electric field power spectral density,
 	 an average of 8 sweeps of the PRA highband receiver of 128 frequency channels each. 
 	 </Description>
-      <Units>millibels</Units>
-      <Wave>
-        <WaveType>PlasmaWaves</WaveType>
-        <WaveQuantity>ACElectricField</WaveQuantity>
-        <FrequencyRange>
-          <SpectralRange>RadioFrequency</SpectralRange>
-          <Low>1.2</Low>
-          <High>40.4</High>
-          <Units>MHz</Units>
-        </FrequencyRange>
-      </Wave>
-    </Parameter>
-    <Extension/>
-  </NumericalData>
+            <Units>millibels</Units>
+            <Wave>
+                <WaveType>PlasmaWaves</WaveType>
+                <WaveQuantity>ACElectricField</WaveQuantity>
+                <FrequencyRange>
+                    <SpectralRange>RadioFrequency</SpectralRange>
+                    <Low>1.2</Low>
+                    <High>40.4</High>
+                    <Units>MHz</Units>
+                </FrequencyRange>
+            </Wave>
+        </Parameter>
+        <Extension/>
+    </NumericalData>
 </Spase>

@@ -51,7 +51,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to IMAGE RPI passive wave measurements (dynamic spectrograms)</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/image/rpi_k1/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/image/rpi/rpi_k1/</URL>
         <Description>FTP access to repository of IMAGE RPI passive wave measurements (dynamic spectrograms) in CDF format at NASA CDAWeb.</Description>
         <Language>en</Language>
       </AccessURL>

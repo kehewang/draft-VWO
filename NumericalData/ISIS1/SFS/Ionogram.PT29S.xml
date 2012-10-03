@@ -41,7 +41,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP access to ISIS-1 Ionogram CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/isis1/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdaweb/isis1</URL>
         <Description>FTP access to repository of ISIS-1 Ionograms in CDF format at NASA CDAWeb. The CDF files are organized by ground station, where each ground station is represented by a three letter ID and a two-digit code. The full names for each station are provided at 
             http://nssdc.gsfc.nasa.gov/space/isis/isis-table1-new.html
             A merged data set, independent of the ground stations, is in preparation.</Description>

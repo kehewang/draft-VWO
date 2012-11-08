@@ -4,9 +4,9 @@
     <NumericalData>
         <ResourceID>spase://VWO/NumericalData/Cassini/RPWS/KP_PT60S</ResourceID>
         <ResourceHeader>
-            <ResourceName>CASSINI RPWS Key Parameter 60S</ResourceName>
-            <AlternateName>CASSINI ORBITER RADIO AND PLASMA WAVE SCIENCE</AlternateName>
-            <AlternateName>CASSINI RPWS SUMMARY KEY PARAMETER 60S V1.0</AlternateName>
+            <ResourceName>Cassini RPWS Key Parameter 60S</ResourceName>
+            <AlternateName>Cassini Orbiter Radio and Plasma Wave Science</AlternateName>
+            <AlternateName>Cassini RPWS SUMMARY KEY PARAMETER 60S V1.0</AlternateName>
             <ReleaseDate>2012-11-07T12:00:00.000Z</ReleaseDate>
             <Description>The Cassini Radio and Plasma Wave Science (RPWS) resampled
       summary key parameter data set includes summary spectral
@@ -50,6 +50,11 @@
                 <Name>PDS/PPI</Name>
                 <URL>http://ppi.pds.nasa.gov/</URL>
                 <Description>NASA's Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS)</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Cassini RPWS Volume CORPWS_0172</Name>
+                <URL>http://ppi.pds.nasa.gov/archive1/CORPWS_0172/AAREADME.HTM</URL>
+                <Description>The Cassini RPWS Volume 172 (typical) readme file with descriptions of the data, the organization of the data within the volume and associated software</Description>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>

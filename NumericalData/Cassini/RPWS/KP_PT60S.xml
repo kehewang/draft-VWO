@@ -8,11 +8,7 @@
             <AlternateName>Cassini Orbiter Radio and Plasma Wave Science</AlternateName>
             <AlternateName>Cassini RPWS SUMMARY KEY PARAMETER 60S V1.0</AlternateName>
             <ReleaseDate>2012-11-07T12:00:00.000Z</ReleaseDate>
-            <Description>The Cassini Radio and Plasma Wave Science (RPWS) resampled
-      summary key parameter data set includes summary spectral
-      information calibrated in units of spectral density for the
-      entire Cassini mission.
-      
+            <Description>      
             The Cassini Radio and Plasma Wave Science (RPWS) calibrated
       summary key parameter data set includes reduced temporal and
       spectral resolution spectral information calibrated in units of

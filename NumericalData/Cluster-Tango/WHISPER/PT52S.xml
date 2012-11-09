@@ -55,8 +55,10 @@ acknowledge the instrument team and ESA Cluster Active Archive when using this d
 acknowledge the instrument team and ESA Cluster Active Archive when using this data</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
+    <ProviderResourceName>C1_CP_WHI_NATURAL</ProviderResourceName>
     <InstrumentID>spase://SMWG/Instrument/Cluster-Tango/WHISPER</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>Waves.Active</MeasurementType>
     <MeasurementType>ElectricField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

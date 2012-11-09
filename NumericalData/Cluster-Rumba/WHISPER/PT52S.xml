@@ -24,6 +24,14 @@ acknowledge the instrument team and ESA Cluster Active Archive when using this d
 			<PersonID>spase://SMWG/Person/Jean-Louis.Rauch</PersonID>
 			<Role>PrincipalInvestigator</Role>	
 		</Contact>
+		<Contact>
+			<PersonID>spase://SMWG/Person/Jean-Gabriel.Trotignon</PersonID>
+			<Role>FormerPI</Role>	
+		</Contact>
+		<Contact>
+		        <PersonID>spase://SMWG/Person/Pierrette.Decreau</PersonID>
+		        <Role>FormerPI</Role>
+		</Contact>
       <InformationURL>
         <Name>Cluster Active Archive Documentation Page</Name>
         <URL>http://caa.estec.esa.int/caa</URL>

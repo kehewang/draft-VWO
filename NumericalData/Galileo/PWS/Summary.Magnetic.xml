@@ -68,7 +68,8 @@
                 <StartDate>1995-12-07T15:21:00.000Z</StartDate>
                 <StopDate>2003-09-21T18:45:00.000Z</StopDate>
             </TimeSpan>
-        </TemporalDescription>
+	    <Cadence>PT60S</Cadence>
+         </TemporalDescription>
         <ObservedRegion>Jupiter</ObservedRegion>
         <Keyword>Jupiter</Keyword>
         <Keyword>Io</Keyword>

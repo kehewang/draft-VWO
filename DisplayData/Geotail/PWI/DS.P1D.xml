@@ -55,7 +55,7 @@
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>1992-09-18T00:00:00Z</StartDate>
-                <StopDate>2009-02-14T23:59:59Z</StopDate>
+               <RelativeStopDate>-P30D</RelativeStopDate>
             </TimeSpan>
         </TemporalDescription>
         <DisplayCadence>P1D</DisplayCadence>

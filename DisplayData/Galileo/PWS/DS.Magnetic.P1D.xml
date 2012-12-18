@@ -16,21 +16,19 @@ During the time interval spanned by the first Earth flyby, Galileo approached Ea
 
  
 
-+---------------------------------------------------+
-|            Flyby 1                                |
-+---------------------------------------------------+
-| 1990 November 8 1700 UT  | dataset start          |
-| 1990 December 8          | Earth closest approach |
-| 1990 December 18 1700 UT | dataset end            |
-+---------------------------------------------------+
++-----------------------------------------------------+
+|            Flyby 1                                  |
+| 1990 November 8 1700 UT  | - dataset start          |
+| 1990 December 8          | - Earth closest approach |
+| 1990 December 18 1700 UT | - dataset end            |
++-----------------------------------------------------+
 
-+---------------------------------------------------+
-|             Flyby 2                               |
-+---------------------------------------------------+                         
-| 1992 November 6 2100 UT  | dataset start          |
-| 1992 December 8          | Earth closest approach |
-| 1992 December 17 0630 UT | dataset ends           |
-+---------------------------------------------------+
++-----------------------------------------------------+
+|             Flyby 2                                 |
+| 1992 November 6 2100 UT  | - dataset start          |
+| 1992 December 8          | - Earth closest approach |
+| 1992 December 17 0630 UT | - dataset ends           |
++-----------------------------------------------------+
 
 </Description>
             <Acknowledgement>When using this data please acknowledge the PI Donald A. Gurnett and Co-I William S. Kurth, NASA, The University of Iowa and the VWO.</Acknowledgement>

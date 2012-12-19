@@ -99,8 +99,8 @@ During the time interval spanned by the first Earth flyby, Galileo approached Ea
         <Keyword>Type II Solar radio burst</Keyword>
         <Keyword>Type III Solar radio burst</Keyword>
         <Parameter>
-            <Name>Electric Spectral Density</Name>
-            <Units>V^2/m^2/Hz</Units>
+            <Name>Magnetic Spectral Density</Name>
+            <Units>nT^2/Hz</Units>
             <Wave>
                 <WaveType>PlasmaWaves</WaveType>
                 <Qualifier>Magnitude</Qualifier>

@@ -269,7 +269,7 @@ Center is
             </AccessURL>
             <AccessURL>
                 <Name>URAP Data Access Viewer</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/</URL>
+                <URL>http://urap.gsfc.nasa.gov/cgi-bin/giffer.py?plot_type=dynspec</URL>
                 <Description>A display tool to browse URAP Dynamic Spectrograms at 1, 10 and 26 day intervals.</Description>
             </AccessURL>
             <Format>GIF</Format>

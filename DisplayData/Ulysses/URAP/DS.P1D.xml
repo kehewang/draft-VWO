@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
     <!-- Version of the GIF_DS_PT128S document: v1.0 October 25, 2010  -->
     <DisplayData>
         <ResourceID>spase://VWO/DisplayData/Ulysses/URAP/DS.P1D</ResourceID>
@@ -250,23 +250,27 @@ Center is
                 <Description/>
                 <Language>en</Language>
             </InformationURL>
-            <Association/>
             <PriorID/>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>Daily Spectrogram Plots at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/</URL>
-                <Description>Repository of Ulysses URAP display and numerical data at NASA GSFC, containing GIF and PS plots of dynamic spectrograms as well as ASCII data sets. </Description>
+                <Description>Repository of Ulysses URAP display and numerical data including GIF and PS plots of dynamic spectrograms as well as ASCII data sets. </Description>
                 <Language>en</Language>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>Daily Spectrogram Plots at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/</URL>
-                <Description>In CDF via HTTP from SPDF</Description>
+                <Description>Repository of Ulysses URAP display and numerical data including GIF and PS plots of dynamic spectrograms as well as ASCII data sets.</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>URAP Data Access Viewer</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/</URL>
+                <Description>A display tool to browse URAP Dynamic Spectrograms at 1, 10 and 26 day intervals.</Description>
             </AccessURL>
             <Format>GIF</Format>
             <Encoding>None</Encoding>

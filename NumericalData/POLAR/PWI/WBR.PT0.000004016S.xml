@@ -53,6 +53,11 @@
         |      0 kHz| 3-6 kHz|   |   3.0   kHz-  6.0  kHz|
         +------------------------------------------------+
 
+        The cadence value given here is computed from the inverse of the sampling rate (249 kHz). 
+        For a description of the PWI receivers and the different operational modes see:
+        http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html
+
+
       </Description>
       <Acknowledgement>UIowa, Donald A. Gurnett</Acknowledgement>
       <Contact>
@@ -72,7 +77,7 @@
         <URL>http://www-pw.physics.uiowa.edu/polar/data.html</URL>
         <Description>
           A Polar PWI page is maintained at the University of Iowa with
-          descriptions of interpretation issues, user&apos;s guides, data
+          descriptions of receivers, interpretation issues, user&apos;s guides, data
           availability tables, a form for creating summary plots and access to
           pregenerated dynamic spectrograms.
         </Description>
@@ -112,6 +117,7 @@
       <TimeSpan>
         <StartDate>1996-03-25T10:00:00.000Z</StartDate>
         <StopDate>1997-09-17T00:00:00.000Z</StopDate>
+        <Note>The cadence value given here is computed from the inverse of the sampling rate (249 kHz).</Note>
       </TimeSpan>
       <Cadence>PT0.000004016S</Cadence>
     </TemporalDescription>

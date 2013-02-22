@@ -32,6 +32,9 @@
         to  the Epoch time for the snapshot.
         
         The unattenuated frequency range for this file type is 20Hz to 25000Hz.
+        The cadence value given here is computed from the inverse of the sampling rate (71.43 kHz). 
+        For a description of the PWI receivers and the different operational modes see:
+        http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html
       </Description>
       <Acknowledgement>UIowa, Donald A. Gurnett</Acknowledgement>
       <Contact>
@@ -51,7 +54,7 @@
         <URL>http://www-pw.physics.uiowa.edu/polar/data.html</URL>
         <Description>
           A Polar PWI page is maintained at the University of Iowa with
-          descriptions of interpretation issues, user&apos;s guides, data
+          descriptions of receivers and interpretation issues, user&apos;s guides, data
           availability tables, a form for creating summary plots and access to
           pregenerated dynamic spectrograms.
         </Description>
@@ -91,6 +94,7 @@
       <TimeSpan>
         <StartDate>1996-04-04T15:00:00.000</StartDate>
         <StopDate>1997-09-14T19:00:00.000</StopDate>
+        <Note>The cadence value given here is computed from the inverse of the sampling rate (71.43 kHz).</Note>
       </TimeSpan>
       <Cadence>PT0.000014S</Cadence>
     </TemporalDescription>

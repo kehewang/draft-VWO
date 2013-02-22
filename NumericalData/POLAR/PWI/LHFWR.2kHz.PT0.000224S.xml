@@ -4,48 +4,32 @@
      xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VWO/NumericalData/POLAR/PWI/LHFWR.16kHz.PT0.000028S</ResourceID>
+    <ResourceID>spase://SMWG/NumericalData/POLAR/PWI/LHFWR.2kHz.PT0.000224S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Polar Plasma Wave Instrument, High Frequency Waveform Receiver, 16 kHz bandwidth, 6-channel Fields</ResourceName>
-      <ReleaseDate>2012-11-15T00:00:00Z</ReleaseDate>
-      <Description>PWI&gt;Plasma Wave Instrument
+      <ResourceName>Polar Plasma Wave Instrument, High Frequency Waveform Receiver, 2 kHz, Time Domain Fields</ResourceName>
+      <ReleaseDate>2012-06-22T00:00:00Z</ReleaseDate>
+      <Description>An FFT on 2048 values was used in calibrating the data; 
+         i.e., perform FFT, calibrate in frequency domain, perform inverse FFT 
+         to get calibrated time series.  Data are lowpass filtered so that the 
+         data are valid only up to 2 kHz.  The three orthogonal magnetic field 
+         components are given in units of nT/Sec rather than nT because the 
+         response of the searchcoils across the passband is not flat.  In order 
+         to obtain units of nT, the data would need to be digitally filtered to 
+         the frequency of interest and then integrated over time.  Integrating 
+         over the entire passband could possibly destroy the resolution of the 
+         higher frequency components since the low frequency noise, if present, 
+         will dominate.  Effective Bandwidth is 1.5*delta_f, where delta_f 
+         depends on the size of the FFT used to convert to the frequency domain, 
+         and delta_t.
+         
+         The unattenuated frequency range for this file type is 20Hz to 2000Hz.
 
-        Reference: Gurnett, D.A. et al, The Polar Plasma Wave Instrument,
-        Space Science Reviews, Vol. 71, pp. 597-622, 1995.
-        donald-gurnett@uiowa.edu
-
-        An FFT on 1024 values was used in calibrating the data; i.e., perform
-        FFT, calibrate in frequency domain, perform inverse FFT to get
-        calibrated time series.
-
-	Coordinate system used: local magnetic field-aligned, a spacecraft
-	centered coordinate system where Z is parallel to the local B-field
-	determined from Polar MFE, X points outward and lies in the plane
-	defined by the Z-axis and the radial vector from the earth to the
-	spacecraft, and Y completes a right-handed system and points eastward.
-	The X- and Z-axes are contained in the north-south plane.
-
-	Effective bandwidth is 1.5*delta_f, where delta_f depends on the size of
-	the FFT used to convert to the frequency domain, and delta_t.
-
-        These data come in snapshots of 31816 points per channel, every 9.2
-        seconds, where the duration of each snapshot is 0.045 seconds. The time
-        for individual samples is the epoch time of the snapshot incremented by
-        delta_t in milliseconds for each successive sample.  That is:
-        sample_time = epoch_time + sample_offset * delta_t
-
-        The data in this file will be in sets of 31744 (31*1024) points per
-	channel because the FFT size does not come out even within the number of
-	points per snapshot. To obtain the time for each point in the snapshot,
-	increment each Epoch time after the first with Delta_T (in ms).
-
-        The unattenuated frequency range for this file type is 20Hz to 16000Hz.
-        
-        The cadence value given here is computed from the inverse of the sampling rate (35.71 kHz). 
+        The cadence value given here is computed from the inverse of the sampling rate (4.46 kHz). 
         For a description of the PWI receivers and the different operational modes see:
         http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html
+        
       </Description>
-      <Acknowledgement>UIowa, Donald A. Gurnett</Acknowledgement>
+      <Acknowledgement>U. Iowa, Donald. A. Gurnett</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -58,63 +42,40 @@
         <PersonID>spase://SMWG/Person/Jeremy.Faden</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
-      <InformationURL>
-        <Name>Polar Plasma Wave Investigation (PWI) Data and User&apos;s Guides</Name>
-        <URL>http://www-pw.physics.uiowa.edu/polar/data.html</URL>
-        <Description>
-          A Polar PWI page is maintained at the University of Iowa with
-          descriptions of receivers, interpretation issues, user&apos;s guides, data
-          availability tables, a form for creating summary plots and access to
-          pregenerated dynamic spectrograms.
-        </Description>
-        <Language>en</Language>
-      </InformationURL>
     </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>POLAR PWI H3 data web access</Name>
-        <URL>http://www-pw.physics.uiowa.edu/polar/po_h3_pwi/</URL>
-        <Description>HTTP access to directories with Polar PWI H3 data files</Description>
-      </AccessURL>
-      <Format>CDF</Format>
-      <Encoding>None</Encoding>
-      <Acknowledgement>UIowa, Donald A. Gurnett</Acknowledgement>
-    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights> 
+      <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP Access</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h3</URL>
-        <ProductKey>PO_H3_PWI</ProductKey>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h4</URL>
+        <ProductKey>PO_H4_PWI</ProductKey>
         <Description>Access to CDF data via NASA/GSFC CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
-      <Acknowledgement>UIowa, Donald A. Gurnett</Acknowledgement>
+      <Acknowledgement>U. Iowa, Donald. A. Gurnett</Acknowledgement>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/POLAR/PWI</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>1996-03-25T00:00:00.000</StartDate>
+        <StartDate>1996-03-26T00:00:00.000</StartDate>
         <StopDate>1997-09-17T00:00:00.000</StopDate>
-        <Note>The cadence value given here is computed from the inverse of the sampling rate (35.71 kHz).</Note>
+        <Note>The cadence value given here is computed from the inverse of the sampling rate (4.46 kHz).</Note>
       </TimeSpan>
-      <Cadence>PT0.000028S</Cadence>
+      <Cadence>PT0.000224S</Cadence>
     </TemporalDescription>
     <Keyword>CDF Global Attribute TITLE: POLAR PWI HFWR</Keyword>
     <Keyword>CDF Global Attribute MISSION_GROUP: Polar CDF Global Attribute MISSION_GROUP: Magnetospheric Data </Keyword>
     <Keyword>CDF Global Attribute PROJECT: ISTP&gt;International Solar-Terrestrial Physics</Keyword>
     <Keyword>CDF Global Attribute DATA_VERSION: 1</Keyword>
     <Keyword>CDF Global Attribute DISCIPLINE: Space Physics&gt;Magnetospheric Science</Keyword>
-    <Keyword>CDF Global Attribute DATA_TYPE: H3&gt;LHWFR 16kHz (6 channels)</Keyword>
-    <Keyword>CDF Global Attribute ADID_REF: NSSD2001</Keyword>
+    <Keyword>CDF Global Attribute DATA_TYPE: H4&gt;LHFWR 2KHz (6 channels)</Keyword>
+    <Keyword>CDF Global Attribute ADID_REF: NSSD0171</Keyword>
     <Keyword>CDF Global Attribute MODS: Created Jan 2004 </Keyword>
+
     <Keyword>Auroral hiss</Keyword>
     <Keyword>Chorus</Keyword>
     <Keyword>Continuum radiation</Keyword>
@@ -128,10 +89,11 @@
     <Keyword>Bernstein Waves</Keyword>
     <Keyword>Upper Hybrid Waves</Keyword>
     <Keyword>Lower Hybrid Waves</Keyword>
+
     <Parameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>
-      <Description>Time, time of HFWR 16 kHz value</Description>
+      <Description>Time, time of HFWR 2 kHz value</Description>
       <Units>ms</Units>
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
@@ -147,10 +109,10 @@
       <Name>Gain for HFWR Channel 1 (Ex)</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation.</Set>
       <ParameterKey>Gain 1</ParameterKey>
-      <Description>Channel 1 Gain (HFWR 16 kHz) </Description>
+      <Description>Channel 1 Gain (HFWR 2 kHz) </Description>
       <Units> </Units>
       <RenderingHints>
-        <AxisLabel>HFWR_16K_Ex_Gain</AxisLabel>
+        <AxisLabel>HFWR_2K_Ex_Gain</AxisLabel>
         <ValueFormat>I3</ValueFormat>
       </RenderingHints>
       <ValidMin>0</ValidMin>
@@ -164,10 +126,10 @@
       <Name>Gain for HFWR Channel 2 (Ey)</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation.</Set>
       <ParameterKey>Gain2</ParameterKey>
-      <Description>Channel 2 Gain (HFWR 16 kHz) </Description>
+      <Description>Channel 2 Gain (HFWR 2 kHz) </Description>
       <Units> </Units>
       <RenderingHints>
-        <AxisLabel>HFWR_16K_Ey_Gain</AxisLabel>
+        <AxisLabel>HFWR_2K_Ey_Gain</AxisLabel>
         <ValueFormat>I2</ValueFormat>
       </RenderingHints>
       <ValidMin>0</ValidMin>
@@ -181,10 +143,10 @@
       <Name>Gain for HFWR Channel 3 (Ez)</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation.</Set>
       <ParameterKey>Gain3</ParameterKey>
-      <Description>Channel 3 Gain (HFWR 16 kHz) </Description>
+      <Description>Channel 3 Gain (HFWR 2 kHz) </Description>
       <Units> </Units>
       <RenderingHints>
-        <AxisLabel>HFWR_16K_Ez_Gain</AxisLabel>
+        <AxisLabel>HFWR_2K_Ez_Gain</AxisLabel>
         <ValueFormat>I2</ValueFormat>
       </RenderingHints>
       <ValidMin>0</ValidMin>
@@ -198,11 +160,11 @@
       <Name>Gain for HFWR 16 kHz M-Field (Bx, By, Bz)</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation.</Set>
       <ParameterKey>MGain</ParameterKey>
-      <Description>M Gain (HFWR) </Description>
+      <Description>M Gain (HFWR 2 kHz) </Description>
       <Caveats>Applies to all 3 Magnetic Channels</Caveats>
       <Units> </Units>
       <RenderingHints>
-        <AxisLabel>HFWR_16K_MGain</AxisLabel>
+        <AxisLabel>HFWR_2K_MGain</AxisLabel>
         <ValueFormat>I2</ValueFormat>
       </RenderingHints>
       <ValidMin>0</ValidMin>
@@ -213,17 +175,17 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>HFWR 16 kHz Elec. Field Antenna Ex</Name>
+      <Name>HFWR 2 kHz Elec Field Antenna Ex</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Elec Field Antenna Ex (perp and outward in Local-Field Aligned/LFA coords).</Set>
-      <ParameterKey>HFWR_Ex16K</ParameterKey>
-      <Description>HFWR 16 kHz Elec. Ant. Ex, Field Aligned, Perpendicular</Description>
+      <ParameterKey>HFWR_Ex2K</ParameterKey>
+      <Description>HFWR 2 kHz Elec Field Antenna Ex (perp and outward in Local-Field-Aligned/LFA coords)</Description>
       <Units>mV/M</Units>
       <RenderingHints>
-        <AxisLabel>HFWR_Ex16K</AxisLabel>
+        <AxisLabel>HFWR_Ex2K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
       </RenderingHints>
-      <ValidMin>-30.0</ValidMin>
-      <ValidMax>30.0</ValidMax>
+      <ValidMin>-15.0</ValidMin>
+      <ValidMax>15.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
           <WaveType>PlasmaWaves</WaveType>
@@ -231,17 +193,17 @@
       </Wave>
     </Parameter>
     <Parameter>
-      <Name>HFWR 16 kHz Elec. Field Antenna Ey</Name>
+      <Name>HFWR 2 kHz Elec. Field Antenna Ey</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Elec Field Antenna Ey (perp and eastward in Local-Field Aligned/LFA coords).</Set>
-      <ParameterKey>HFWR_Ey16K</ParameterKey>
-      <Description>HFWR 16 kHz Elec. Ant. Ey, Field Aligned, Perpendicular</Description>
+      <ParameterKey>HFWR_Ey2K</ParameterKey>
+      <Description>HFWR 2 kHz Elec Field Antenna Ey (perp and eastward in Local-Field-Aligned/LFA coords)</Description>
       <Units>mV/M</Units>
       <RenderingHints>
-        <AxisLabel>HFWR_Ey16K</AxisLabel>
+        <AxisLabel>HFWR_Ey2K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
       </RenderingHints>
-      <ValidMin>-30.0</ValidMin>
-      <ValidMax>30.0</ValidMax>
+      <ValidMin>-20.0</ValidMin>
+      <ValidMax>20.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
           <WaveType>PlasmaWaves</WaveType>
@@ -249,17 +211,17 @@
       </Wave>
     </Parameter>
     <Parameter>
-      <Name>HFWR 16 kHz Elec. Field Antenna Ez</Name>
+      <Name>HFWR 2 kHz Elec. Field Antenna Ez</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Elec Field Antenna Ez (parallel in Local-Field Aligned/LFA coords).</Set>
-      <ParameterKey>HFWR_Ez16K</ParameterKey>
-      <Description>HFWR 16 kHz Elec. Ant. Ez, Field Aligned, Parallel</Description>
+      <ParameterKey>HFWR_Ez2K</ParameterKey>
+      <Description>HFWR 2 kHz Elec Field Antenna Ez (parallel in Local-Field-Aligned/LFA coords)</Description>
       <Units>mV/M</Units>
       <RenderingHints>
-        <AxisLabel>HFWR_Ez16K</AxisLabel>
+        <AxisLabel>HFWR_Ez2K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
       </RenderingHints>
-      <ValidMin>-30.0</ValidMin>
-      <ValidMax>30.0</ValidMax>
+      <ValidMin>-25.0</ValidMin>
+      <ValidMax>25.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
           <WaveType>PlasmaWaves</WaveType>
@@ -267,17 +229,17 @@
       </Wave>
     </Parameter>
     <Parameter>
-      <Name>HFWR 16 kHz Mag. Field Antenna Bx</Name>
+      <Name>HFWR 2 kHz Mag. Field Antenna Bx</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Mag Field Antenna Bx (perp and outward in Local-Field Aligned/LFA coords).</Set>
-      <ParameterKey>HFWR_Bx16K</ParameterKey>
-      <Description>HFWR 16 kHz Mag. Ant. Bx, Field Aligned, Perpendicular</Description>
+      <ParameterKey>HFWR_Bx2K</ParameterKey>
+      <Description>HFWR 2 kHz Mag Field Antenna Bx (perp and outward in Local-Field-Aligned/LFA coords)</Description>
       <Units>nT</Units>
       <RenderingHints>
-        <AxisLabel>HFWR_Bx16K</AxisLabel>
+        <AxisLabel>HFWR_Bx2K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
       </RenderingHints>
-      <ValidMin>-50.0</ValidMin>
-      <ValidMax>50.0</ValidMax>
+      <ValidMin>-1200.0</ValidMin>
+      <ValidMax>1200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
           <WaveType>PlasmaWaves</WaveType>
@@ -285,17 +247,17 @@
       </Wave>
     </Parameter>
     <Parameter>
-      <Name>HFWR 16 kHz Mag. Field Antenna By</Name>
+      <Name>HFWR 2 kHz Mag. Field Antenna By</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Mag Field Antenna By (perp and eastward in Local-Field Aligned/LFA coords).</Set>
-      <ParameterKey>HFWR_By16K</ParameterKey>
-      <Description>HFWR 16 kHz Mag. Ant. By, Field Aligned, Perpendicular</Description>
+      <ParameterKey>HFWR_By2K</ParameterKey>
+      <Description>HFWR 2 kHz Mag Field Antenna By (perp and eastward in Local-Field-Aligned/LFA coords)</Description>
       <Units>nT</Units>
       <RenderingHints>
-        <AxisLabel>HFWR_By16K</AxisLabel>
+        <AxisLabel>HFWR_By2K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
       </RenderingHints>
-      <ValidMin>-50.0</ValidMin>
-      <ValidMax>50.0</ValidMax>
+      <ValidMin>-1200.0</ValidMin>
+      <ValidMax>1200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
           <WaveType>PlasmaWaves</WaveType>
@@ -303,18 +265,17 @@
       </Wave>
     </Parameter>
     <Parameter>
-      <Name>HFWR 16 kHz Mag. Field Antenna Bz</Name>
+      <Name>HFWR 2 kHz Mag. Field Antenna Bz</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Mag Field Antenna Bz (parallel in Local-Field Aligned/LFA coords).</Set>
-      <ParameterKey>HFWR_Bz16K</ParameterKey>
-      <Description>HFWR 16 kHz Mag. Ant. Bz, Field Aligned, Parallel</Description>
-      <Caveats>When FFT is applied, Filter Rolls off at 25 kHz</Caveats>
+      <ParameterKey>HFWR_Bz2K</ParameterKey>
+      <Description>HFWR 2 kHz Mag Field Antenna Bz (parallel in Local-Field-Aligned/LFA coords)</Description>
       <Units>nT</Units>
       <RenderingHints>
-        <AxisLabel>HFWR_Bz16K</AxisLabel>
+        <AxisLabel>HFWR_Bz2K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
       </RenderingHints>
-      <ValidMin>-50.0</ValidMin>
-      <ValidMax>50.0</ValidMax>
+      <ValidMin>-1200.0</ValidMin>
+      <ValidMax>1200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
           <WaveType>PlasmaWaves</WaveType>

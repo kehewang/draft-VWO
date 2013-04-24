@@ -101,13 +101,13 @@ Ser., 92(2), 291-316 (1992).
             </Contact>
             <InformationURL>
                 <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
-                <URL>http://urap.gsfc.nasa.gov/</URL>
+                <URL>http://urap.gsfc.nasa.gov</URL>
                 <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
                 <Language>en</Language>
             </InformationURL>
             <InformationURL>
                 <Name>Ulysses URAP Instrument Page at ESA</Name>
-                <URL>http://www.rssd.esa.int/helio/archive/urap.html</URL>
+                <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
                 <Description/>
                 <Language>en</Language>
             </InformationURL>
@@ -120,14 +120,14 @@ Ser., 92(2), 291-316 (1992).
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap_cdaweb/r144_m0/</URL>
                 <Description>FTP access to repository of Ulysses/URAP RAR 144 CDFs at NASA 
 CDAWeb.Name of the data resource: UY_M0_R144</Description>
                 <Language>en</Language>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTP access to files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap_cdaweb/r144_m0/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

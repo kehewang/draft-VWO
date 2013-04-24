@@ -177,32 +177,26 @@ Ser., 92(2), 291-316 (1992).
             </Contact>
             <InformationURL>
                 <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
-                <URL>http://urap.gsfc.nasa.gov/</URL>
+                <URL>http://urap.gsfc.nasa.gov</URL>
                 <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
                 <Language>en</Language>
             </InformationURL>
             <InformationURL>
                 <Name>Guide to Archiving of Ulysses URAP Data</Name>
-                <URL>ftp://ftp.rssd.esa.int/pub/ulysses/URAP/docs/others/archived_data_user_guide.html</URL>
+                <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
                 <Description>by Roger Hess, Robert MacDowall, Denise Lengyel-Frey, formerly known as GUIDE TO THE ARCHIVING OF ULYSSES
 RADIO AND PLASMA WAVE DATA, revised January 27, 2010 - version 1.3</Description>
                 <Language>en</Language>
             </InformationURL>
             <InformationURL>
                 <Name>Ulysses URAP Instrument Page at ESA</Name>
-                <URL>http://www.rssd.esa.int/index.php?project=ULYSSES</URL>
+                <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
                 <Description/>
                 <Language>en</Language>
             </InformationURL>
             <InformationURL>
-                <Name>Ulysses URAP Instrument FTP site at ESA</Name>
-                <URL>ftp://ftp.rssd.esa.int/pub/ulysses/URAP/</URL>
-                <Description>ESA ftp site including links to data, documents and software</Description>
-                <Language>en</Language>
-            </InformationURL>
-            <InformationURL>
                 <Name>The Unified Radio and Plasma Wave Investigation</Name>
-                <URL>ftp://www.rssd.esa.int/pub/ulysses/cdroms/uls_04_a/docs/urap/urap.htm</URL>
+                <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
                 <Description>A copy of the instrument paper, Stone et al. Astron. Astrophys. Suppl. Ser. 92, 291-316 (1992)</Description>
                 <Language>en</Language>
             </InformationURL>
@@ -215,14 +209,14 @@ RADIO AND PLASMA WAVE DATA, revised January 27, 2010 - version 1.3</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/rar_144sec_ascii/</URL>
                 <Description>FTP access to repository of Ulysses/URAP RAR 144 ASCII format data files at NASA's SPDF
     </Description>
                 <Language>en</Language>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTP access to files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/rar_144sec_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

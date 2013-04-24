@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
     <!-- Version of the GIF_DS_PT128S document: v1.0 October 25, 2010  -->
     <DisplayData>
         <ResourceID>spase://VWO/DisplayData/Ulysses/URAP/DS.P1D</ResourceID>
@@ -51,7 +51,7 @@ The data for electric field observations are in units of microvolts**2
 Hz**(-1) as are the calculated background levels.  The units for
 magnetic field observations (the bottom panels on the page) are
 nT**2 Hz**(-1).  The data for the 1-day plots are comparable to the
-squared values of data in the URAP UDS 10-minute files. 
+squared values of data in the URAP UFA 10-minute files. 
 Although the ratio (total power-background power)/background
 power permits one to see weaker events in such plots, it is more
 sensitive to background  determination and enhances the noise
@@ -239,17 +239,18 @@ Center is
                 <Role>TechnicalContact</Role>
             </Contact>
             <InformationURL>
-                <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
-                <URL>http://urap.gsfc.nasa.gov/</URL>
-                <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
-                <Language>en</Language>
-            </InformationURL>
-            <InformationURL>
                 <Name>Ulysses URAP Instrument Page at ESA</Name>
-                <URL>http://www.rssd.esa.int/helio/archive/urap.html</URL>
+                <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
                 <Description/>
                 <Language>en</Language>
             </InformationURL>
+            <InformationURL>
+                <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
+                <URL>http://urap.gsfc.nasa.gov</URL>
+                <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
+                <Language>en</Language>
+            </InformationURL>
+            <Association/>
             <PriorID/>
         </ResourceHeader>
         <AccessInformation>
@@ -257,15 +258,15 @@ Center is
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Daily Spectrogram Plots at SPDF</Name>
+                <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/</URL>
-                <Description>Repository of Ulysses URAP display and numerical data including GIF and PS plots of dynamic spectrograms as well as ASCII data sets. </Description>
+                <Description>Repository of Ulysses URAP display and numerical data at NASA GSFC, containing GIF and PS plots of dynamic spectrograms as well as ASCII data sets. </Description>
                 <Language>en</Language>
             </AccessURL>
             <AccessURL>
-                <Name>Daily Spectrogram Plots at SPDF</Name>
+                <Name>HTTP access to files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/</URL>
-                <Description>Repository of Ulysses URAP display and numerical data including GIF and PS plots of dynamic spectrograms as well as ASCII data sets.</Description>
+                <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>URAP Data Access Viewer</Name>

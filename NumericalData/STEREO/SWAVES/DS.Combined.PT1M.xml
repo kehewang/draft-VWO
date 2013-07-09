@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-    <Version>2.2.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd'">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VWO/NumericalData/STEREO/SWAVES/DS.Combined.PT1M</ResourceID>
         <ResourceHeader>
@@ -51,13 +51,13 @@ These data consist of output from the SWAVES HFR and LFR receivers.
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/combined/l2/swaves/</URL>
                 <Description>FTP access to repository of SWAVES Level 2 data in CDF format at NASA CDAWeb.</Description>
                 <Language>en</Language>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTP access to files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/combined/l2/swaves/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
@@ -71,6 +71,7 @@ These data consist of output from the SWAVES HFR and LFR receivers.
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <ProductKey>STEREO_LEVEL2_SWAVES</ProductKey>
                 <Description>Repository of SWAVES data in CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: STEREO_LEVEL2_SWAVES.</Description>
                 <Language>en</Language>
             </AccessURL>

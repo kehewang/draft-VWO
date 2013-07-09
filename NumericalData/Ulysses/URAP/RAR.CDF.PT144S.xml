@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd'">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VWO/NumericalData/Ulysses/URAP/RAR.CDF.PT144S</ResourceID>
         <ResourceHeader>
@@ -111,8 +111,6 @@ Ser., 92(2), 291-316 (1992).
                 <Description/>
                 <Language>en</Language>
             </InformationURL>
-            <Association/>
-            <PriorID/>
             <PriorID>spase://VWO/NumericalData/Ulysses/URAP/Ulysses_RAR_PT144S</PriorID>
         </ResourceHeader>
         <AccessInformation>
@@ -134,6 +132,7 @@ CDAWeb.Name of the data resource: UY_M0_R144</Description>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <ProductKey>UY_M0_R144</ProductKey>
                 <Description>Repository of Ulysses/URAP RAR data in CDF format at NASA CDAWeb, 
 accessible via web interface. Name of the data resource: 
 UY_M0_R144.</Description>

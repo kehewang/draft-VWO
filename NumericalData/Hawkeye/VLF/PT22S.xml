@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-    <Version>2.2.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd'">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VWO/NumericalData/Hawkeye/VLF/PT22S</ResourceID>
         <ResourceHeader>
@@ -32,19 +32,20 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/hawkeye/h0/vlf/</URL>
                 <Description>FTP access to repository of Hawkeye VLF data in CDF format at NASA CDAWeb.</Description>
                 <Language>en</Language>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTP access to files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/hawkeye/h0/vlf/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
+                <ProductKey>HK_H0_VLF</ProductKey>
                 <Description>Repository of Hawkeye data in CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: HK_H0_VLF.</Description>
                 <Language>en</Language>
             </AccessURL>

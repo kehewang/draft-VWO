@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-    <Version>2.2.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd'">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VWO/NumericalData/POLAR/PWI/SFR.AB.PT2S</ResourceID>
         <ResourceHeader>
@@ -37,7 +37,6 @@ The Polar PWI Sweep Frequency Receiver-B (SFR-B) collected data from March 1996 
                 <Description>Descriptions of PWI receiver and antenna modes.</Description>
                 <Language>en</Language>
             </InformationURL>
-            <Association/>
             <PriorID>spase://VWO/NumericalData/POLAR/PWI/Polar_PWI_SFR_AB_CDF_PT2S</PriorID>
         </ResourceHeader>
         <AccessInformation>
@@ -45,19 +44,20 @@ The Polar PWI Sweep Frequency Receiver-B (SFR-B) collected data from March 1996 
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h1/</URL>
                 <Description>FTP access to repository of Polar PWI SFR A and B CDFs at NASA CDAWeb.Name of the data resource: PO_H1_PWI</Description>
                 <Language>en</Language>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTP access to files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h1/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <ProductKey>PO_H1_PWI</ProductKey>
                 <Description>Repository of Polar PWI data in CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: PO_H1_PWI.</Description>
                 <Language>en</Language>
             </AccessURL>

@@ -62,7 +62,7 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
       <PriorID>spase://VWO/DisplayData/Cluster-Salsa/WBD/CLUSTER_WBD_GIF_DS</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/CAA</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/CSA</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Restricted</AccessRights>
       <AccessURL>

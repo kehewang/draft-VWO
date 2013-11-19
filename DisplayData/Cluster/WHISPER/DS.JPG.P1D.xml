@@ -17,9 +17,9 @@
                 <Role>FormerPI</Role>
             </Contact>
             <InformationURL>
-                <Name>Cluster Active Archive</Name>
-                <URL>http://caa.estec.esa.int/caa/home.xml</URL>
-                <Description>The Cluster Active Archive (CAA) provides access to data from all of the Cluster instruments along with documentation. The 'User Guide to the WHISPER measurements in the Cluster Active Archive (CAA)', available through the CAA, provides details on the instrument, operational modes, and interpretation issues.</Description>
+                <Name>Cluster Science Archive (CSA) Documentation</Name>
+                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
+                <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
                 <Language>en</Language>
             </InformationURL>
             <Association/>

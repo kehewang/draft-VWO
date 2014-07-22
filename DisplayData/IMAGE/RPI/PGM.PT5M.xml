@@ -30,7 +30,7 @@
                 <Language>en</Language>
             </InformationURL>
             <Association>
-                <AssociationID>spase://VWO/NumericalData/IMAGE/RPI/CCSDS_PGM_PT5M</AssociationID>
+                <AssociationID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CCSDS.PT5M</AssociationID>
                 <AssociationType>DerivedFrom</AssociationType>
             </Association>
             <PriorID/>
@@ -90,8 +90,6 @@
         <Keyword>Proton Echo</Keyword>
         <Keyword>Proton Spur</Keyword>
         <Keyword>Ion Spur</Keyword>
-    <!-- Association with numerical data resource used to produce the spectrogram images -->
-        <InputResourceID>spase://VWO/NumericalData/IMAGE/RPI/PGM.PT5M</InputResourceID>
         <Parameter>
             <Name>Signal Strength</Name>
             <Description>Received signal strength, expressed as AC Electric Field in units of dB(nV/m). Plotted values are obtained as ratio of antenna voltage in [nV] over effective antenna length in [m], expressed for a better visualization in the logarithmic scale as [dB relative to 1 nV/m]. </Description>

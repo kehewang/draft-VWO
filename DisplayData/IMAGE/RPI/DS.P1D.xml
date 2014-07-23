@@ -34,7 +34,7 @@
                 <AssociationType>DerivedFrom</AssociationType>
             </Association> -->
             <Association>
-                <AssociationID>spase://VWO/NumericalData/IMAGE/RPI/CDF_DS_PT5M</AssociationID>
+                <AssociationID>spase://VWO/NumericalData/IMAGE/RPI/DS.PT5M</AssociationID>
             </Association>
             <PriorID>spase://VWO/DisplayData/IMAGE/RPI/GIF_DS_PT5M</PriorID>
         </ResourceHeader>

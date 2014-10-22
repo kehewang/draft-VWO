@@ -144,9 +144,9 @@
 				        This experiment showed no anomalies in its operation throughout the lifetime of the  
                                         spacecraft.  Interference from four sources were occasionally observed and flags to  
                                         identify the possible presence of these sources are included in the 'Quality_Flag'  
-                                        variable. The data from the electric field sensors have possible interference when  
+                                        variable. The data from the electric field sensors have possible interference   
                                         when the Plasma Density Instrument (C. C. Harvey) applies signals to the antennas and  
-                                        when the Qusi-static Electric Fields Instrument (F. S. Mozer) performs bias sweeps. 
+                                        when the Quasi-static Electric Fields Instrument (F. S. Mozer) performs bias sweeps. 
                                        
                                        
                                         Data in this file were obtained from the Ev long wire antenna and the Eu two-sphere  

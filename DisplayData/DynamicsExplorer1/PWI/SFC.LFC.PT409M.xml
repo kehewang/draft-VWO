@@ -66,6 +66,20 @@
       </Association>
     </ResourceHeader>
     <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>DE-1/PWI SFC/LFC Browse Spectrogram Plots</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/pub/pre_generated_plots/de/pwi/</URL>
+        <Description>Access to a directory tree (ordered by year) of PNG format plots for DE-1 PWI SFC/LFC combineddynamic spectrograms. The files include those derived from data received by the spin-plane electric (Ex) the spin-axis electric (Ez) and the magnetic (B-H) antennas. </Description>
+        <Language>en</Language>
+      </AccessURL>
+      <Format>PNG</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement/>
+    </AccessInformation>
+    <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>

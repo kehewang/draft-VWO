@@ -45,6 +45,20 @@
       </Association>
     </ResourceHeader>
     <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>ISEE1/PWI Browse Spectrogram Plots</Name>
+        <URL>http://spdf.gsfc.nasa.gov/pub/pre_generated_plots/isee/isee1/</URL>
+        <Description>Access to a directory tree (ordered by year) of PNG format plots for ISEE-1 SFR (daily) and SA (12 hour) dynamic spectrograms.  </Description>
+        <Language>en</Language>
+      </AccessURL>
+      <Format>PNG</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement/>
+    </AccessInformation>
+    <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>

@@ -1,12 +1,13 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
-    <NumericalData>
-        <ResourceID>spase://VWO/NumericalData/Voyager2/PRA/Jupiter/Low.PT6S</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Voyager 2 PRA Lowband Receiver Jupiter encounter, 6 sec resolution</ResourceName>
-            <AlternateName>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</AlternateName>
-            <ReleaseDate>2012-02-24T17:08:31Z</ReleaseDate>
-            <Description>
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <NumericalData>
+    <ResourceID>spase://VWO/NumericalData/Voyager2/PRA/Jupiter/Low.PT6S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 2 PRA Lowband Receiver Jupiter encounter, 6 sec resolution</ResourceName>
+      <AlternateName>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</AlternateName>
+      <ReleaseDate>2012-02-24T17:08:31Z</ReleaseDate>
+      <Description>
 	   (Description based on material from VG2_PRA_JUP_HRES_DS.CAT)
 
       Voyager 2 Radio Astronomy (PRA) data from the Jupiter encounter (1979-04-25 to 1979-08-04).  
@@ -163,106 +164,106 @@ following files:
 |                                                                                                |investigation description paper   |
 +-----------------------------------------------------------------------------------------------------------------------------------+   
          </Description>
-            <Acknowledgement>When using delivered data please acknowledge the data provider and 
+      <Acknowledgement>When using delivered data please acknowledge the data provider and 
 PDS in accordance with the PDS citation policy. Full details can be found at:
 http://ppi.pds.nasa.gov/citations_policy.jsp
          </Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-            <InformationURL>
-                <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
-                <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
-                <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
+        <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
+        <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
          	</Description>
-            </InformationURL>
-            <InformationURL>
-                <Name>VG2_PRA_JUP_HRES_DS.CAT</Name>
-                <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG2_PRA_JUP_HRES_DS.CAT</URL>
-                <Description>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0 dataset description file 
+      </InformationURL>
+      <InformationURL>
+        <Name>VG2_PRA_JUP_HRES_DS.CAT</Name>
+        <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG2_PRA_JUP_HRES_DS.CAT</URL>
+        <Description>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0 dataset description file 
          	</Description>
-            </InformationURL>
-            <PriorID>spase://VWO/NumericalData/Voyager2/PRA/VG2_PRA_Low_Jupiter_PT6S</PriorID>
-        </ResourceHeader>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>Access to dataset ID VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</Name>
-                <URL>http://ppi.pds.nasa.gov/search/view/?id=pds://PPI/VGPR_1201/VG2_JUPITER</URL>
-                <Description>Below this directory level are the 4 ASCII files (TAB) and the accompanying PDS label (LBL) files.
+      </InformationURL>
+      <PriorID>spase://VWO/NumericalData/Voyager2/PRA/VG2_PRA_Low_Jupiter_PT6S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Access to dataset ID VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</Name>
+        <URL>http://ppi.pds.nasa.gov/search/view/?id=pds://PPI/VGPR_1201/VG2_JUPITER</URL>
+        <Description>Below this directory level are the 4 ASCII files (TAB) and the accompanying PDS label (LBL) files.
             </Description>
-                <Language>en</Language>
-            </AccessURL>
-            <Format>Text.ASCII</Format>
-            <Encoding>None</Encoding>
-            <Acknowledgement>When using delivered data please acknowledge the data provider and 
+        <Language>en</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>When using delivered data please acknowledge the data provider and 
 PDS in accordance with the PDS citation policy. Full details can be found at:
 http://ppi.pds.nasa.gov/citations_policy.jsp</Acknowledgement>
-        </AccessInformation>
-        <InstrumentID>spase://SMWG/Instrument/Voyager2/PRA</InstrumentID>
-        <MeasurementType>Waves.Passive</MeasurementType>
-        <MeasurementType>Spectrum</MeasurementType>
-        <MeasurementType>ElectricField</MeasurementType>
-        <MeasurementType>MagneticField</MeasurementType>
-        <TemporalDescription>
-            <TimeSpan>
-                <StartDate>1979-04-25T00:04:00Z</StartDate>
-                <StopDate>1979-08-04T23:05:33Z</StopDate>
-            </TimeSpan>
-            <Cadence>PT6S</Cadence>
-        </TemporalDescription>
-        <SpectralRange>RadioFrequency</SpectralRange>
-        <ObservedRegion>Jupiter</ObservedRegion>
-        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-      <!-- Keywords pertaining to the data presentation -->
-        <Keyword>Dynamic Spectrogram</Keyword>
-        <Keyword>Spectrogram</Keyword>
-      <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
-        <Keyword>Jupiter</Keyword>
-        <Keyword>Kilometric Radio Emission</Keyword>
-        <Keyword>KOM</Keyword>
-        <Parameter>
-            <Name>Date</Name>
-            <Description>Year, month, and day of start of first sweep in (SCET) in the format YYMMDD (Format=I6) </Description>
-            <Support>
-                <SupportQuantity>Temporal</SupportQuantity>
-            </Support>
-        </Parameter>
-        <Parameter>
-            <Name>Second</Name>
-            <Description>Seconds of day (SCET) of start of first sweep (Format=I6)</Description>
-            <Units>s</Units>
-            <Support>
-                <SupportQuantity>Temporal</SupportQuantity>
-            </Support>
-        </Parameter>
-        <Parameter>
-            <Name>Spectral Power</Name>
-            <Description>Electric field power spectral density,
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager2/PRA</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>Spectrum</MeasurementType>
+    <MeasurementType>ElectricField</MeasurementType>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1979-04-25T00:04:00Z</StartDate>
+        <StopDate>1979-08-04T23:05:33Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT6S</Cadence>
+    </TemporalDescription>
+    <SpectralRange>RadioFrequency</SpectralRange>
+    <ObservedRegion>Jupiter</ObservedRegion>
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    <!-- Keywords pertaining to the data presentation -->
+    <Keyword>Dynamic Spectrogram</Keyword>
+    <Keyword>Spectrogram</Keyword>
+    <!-- Keywords pertaining to the physical phenomena appearing in spectrograms -->
+    <Keyword>Jupiter</Keyword>
+    <Keyword>Kilometric Radio Emission</Keyword>
+    <Keyword>KOM</Keyword>
+    <Parameter>
+      <Name>Date</Name>
+      <Description>Year, month, and day of start of first sweep in (SCET) in the format YYMMDD (Format=I6) </Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Second</Name>
+      <Description>Seconds of day (SCET) of start of first sweep (Format=I6)</Description>
+      <Units>s</Units>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Spectral Power</Name>
+      <Description>Electric field power spectral density,
 	 8 sweeps of the PRA lowband receiver of 70 frequency channels each. 
 	 </Description>
-            <Units>millibels</Units>
-            <Wave>
-                <WaveType>PlasmaWaves</WaveType>
-                <WaveQuantity>ACElectricField</WaveQuantity>
-                <FrequencyRange>
-                    <SpectralRange>RadioFrequency</SpectralRange>
-                    <Low>1.2</Low>
-                    <High>1326</High>
-                    <Units>kHz</Units>
-                </FrequencyRange>
-            </Wave>
-        </Parameter>
-        <Parameter>
-            <Name>Status Word</Name>
-            <Description>indicates attenuators used to record the data and the polarization</Description>
-            <Support>
-                <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
-        <Extension/>
-    </NumericalData>
+      <Units>millibels</Units>
+      <Wave>
+        <WaveType>PlasmaWaves</WaveType>
+        <WaveQuantity>ACElectricField</WaveQuantity>
+        <FrequencyRange>
+          <SpectralRange>RadioFrequency</SpectralRange>
+          <Low>1.2</Low>
+          <High>1326</High>
+          <Units>kHz</Units>
+        </FrequencyRange>
+      </Wave>
+    </Parameter>
+    <Parameter>
+      <Name>Status Word</Name>
+      <Description>indicates attenuators used to record the data and the polarization</Description>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Extension/>
+  </NumericalData>
 </Spase>

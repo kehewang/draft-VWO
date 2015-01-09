@@ -49,7 +49,7 @@ These data consist of output from the SWAVES HFR and LFR receivers.
 		<AccessRights>Open</AccessRights>
 		<AccessURL>
 			<Name>STEREO Waves Data Summary Plot Viewer</Name> 
-			<URL>http://swaves.gsfc.nasa.gov/cgi-bin/wimp.pl?</URL>
+			<URL>http://swaves.gsfc.nasa.gov/cgi-bin/wimp.py</URL>
 			<Description>A Web Service to enable viewing STEREO/Waves A and B spectrograms with selection options of color, grayscale, both with and without status bars and the ability to select a new higher resolution version. Plot Download links for PNG, PS and PDF also available.
 			</Description>
 			<Language>en</Language>

@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
   <Version>2.2.1</Version>
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Voyager2/PRA/Jupiter/Low.PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 PRA Lowband Receiver Jupiter encounter, 6 sec resolution</ResourceName>
       <AlternateName>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</AlternateName>
-      <ReleaseDate>2012-02-24T17:08:31Z</ReleaseDate>
+      <ReleaseDate>2015-05-14T00:00:00Z</ReleaseDate>
       <Description>
 	   (Description based on material from VG2_PRA_JUP_HRES_DS.CAT)
 
@@ -192,7 +191,7 @@ http://ppi.pds.nasa.gov/citations_policy.jsp
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Access to dataset ID VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</Name>
-        <URL>http://ppi.pds.nasa.gov/search/view/?id=pds://PPI/VGPR_1201/VG2_JUPITER</URL>
+        <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
         <Description>Below this directory level are the 4 ASCII files (TAB) and the accompanying PDS label (LBL) files.
             </Description>
         <Language>en</Language>

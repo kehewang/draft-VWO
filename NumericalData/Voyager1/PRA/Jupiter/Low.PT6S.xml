@@ -1,18 +1,17 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
   <Version>2.2.1</Version>
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Voyager1/PRA/Jupiter/Low.PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 PRA Lowband Receiver Jupiter encounter, 6 sec resolution</ResourceName>
       <AlternateName>VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</AlternateName>
-      <ReleaseDate>2012-02-24T17:08:31Z</ReleaseDate>
+      <ReleaseDate>2015-05-14T00:00:00Z</ReleaseDate>
       <Description>
 	   (Description based on material from VG1_PRA_JUP_HRES_DS.CAT)
 	   
         Voyager 1 Radio Astronomy (PRA) data from the Jupiter encounter (1979-01-06 to 1979-04-13).  
-	The data set provides 6 second high resolution lowband radio mean power data. The data 
-	are provided for 70 instrument channels, covering 1.2 to 1326.0 kHz.        
+	    The data set provides 6 second high resolution lowband radio mean power data. The data 
+	    are provided for 70 instrument channels, covering 1.2 to 1326.0 kHz.        
  
       This data set (VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0) contains              
       data acquired by the Voyager-1 Planetary Radio Astronomy (PRA)          
@@ -91,7 +90,7 @@
                         kHz) according to the scheme:                         
 
                                                                               
-            +---------------------------+                                                                              
+        +---------------------------+                                                                              
 	    |            |    |value bit|
 	    |            |    | 10=     |
 	    |            |    | 0  |  1 |
@@ -162,36 +161,36 @@ following files:
 |                                                                                                |investigation description paper   |
 +-----------------------------------------------------------------------------------------------------------------------------------+                                                                                                                                                            
          </Description>
-      <Acknowledgement>When using delivered data please acknowledge the data provider and 
+             <Acknowledgement>When using delivered data please acknowledge the data provider and 
 PDS in accordance with the PDS citation policy. Full details can be found at:
 http://ppi.pds.nasa.gov/citations_policy.jsp
          </Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
-        <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
-        <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
+         <Contact>
+        	<PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
+        	<Role>PrincipalInvestigator</Role>
+      	</Contact>
+      	<InformationURL>
+        	<Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
+        	<URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
+        	<Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
          	</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>VG1_PRA_JUP_HRES_DS.CAT</Name>
-        <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA_JUP_HRES_DS.CAT</URL>
-        <Description>VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0 dataset description file 
-         	</Description>
-      </InformationURL>
-      <PriorID>spase://VWO/NumericalData/Voyager1/PRA/VG1_PRA_Low_Jupiter_PT6S</PriorID>
+      	</InformationURL>
+      	<InformationURL>
+	        <Name>VG1_PRA_JUP_HRES_DS.CAT</Name>
+    	    <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA_JUP_HRES_DS.CAT</URL>
+        	<Description>VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0 dataset description file 
+	       	</Description>
+    	  </InformationURL>
+      	  <PriorID>spase://VWO/NumericalData/Voyager1/PRA/VG1_PRA_Low_Jupiter_PT6S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>Access to dataset ID VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</Name>
-        <URL>http://ppi.pds.nasa.gov/search/view/?id=pds://PPI/VGPR_1201/VG1_JUPITER</URL>
-        <Description>Below this directory level are the 4 ASCII files (TAB) and the accompanying PDS label (LBL) files.
+        	<Name>Access to dataset ID VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</Name>
+        	<URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
+       		 <Description>Below this directory level are the 4 ASCII files (TAB) and the accompanying PDS label (LBL) files.
             </Description>
         <Language>en</Language>
       </AccessURL>

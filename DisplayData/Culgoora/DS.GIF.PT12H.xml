@@ -5,7 +5,7 @@
     <ResourceHeader>
       <ResourceName>Spectrograms from Australian Space Weather Services Culgoora Observatory</ResourceName>
       <AlternateName/>
-      <ReleaseDate>2015-10-15T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-19T17:00:00Z</ReleaseDate>
       <Description>Culgoora and Learmonth Observatories dynamic spectrogram plots display frequency in MHz on the vertical axis and time in UT on the horizontal axis. Each plot spans local daylight hours with time resolution of 3 seconds. The frequency range is 18 - 1800 MHz for Culgoora spectrogams and 25 - 180 MHz for Learmonth spectrograms. The intensity values are color coded and are expressed as relative logarithmic units (0 to 255). 
 The Culgoora spectrograms consist of 4 frequency bands: 18-57, 57-180, 180-570 570 -1800 MHz
 and Learmonth has 2 bands: 25-75, 75-180 MHz. The two Learmonth bands are each divided into 400 frequency steps.     
@@ -36,6 +36,12 @@ and Learmonth has 2 bands: 25-75, 75-180 MHz. The two Learmonth bands are each d
         <Name>Software</Name>
         <URL>ftp://ftp-out.ips.gov.au/wdc/wdc_tools/solar_viewers/spectrograph/</URL>
         <Description>A Windows spectrograph viewer (spec.zip) to view raw spectrograph data file</Description>
+        <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>Real Time Display</Name>
+        <URL>http://www.ips.gov.au/Solar/2/2/1</URL>
+        <Description>Real Time display of spectrograph (18-1800 MHz) during daylight hours in Culgoora</Description>
         <Language>en</Language>
       </InformationURL>
     </ResourceHeader>

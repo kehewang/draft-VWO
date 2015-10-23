@@ -59,7 +59,7 @@ and Learmonth has 2 bands: 25-75, 75-180 MHz. The two Learmonth bands are each d
       <Encoding>None</Encoding>
       <Acknowledgement/>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/Learmonth/Radiospectrograph</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Ground/Learmonth/Radiospectrograph</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

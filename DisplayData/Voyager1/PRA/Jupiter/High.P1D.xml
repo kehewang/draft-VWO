@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+  <Version>2.2.6</Version>
   <DisplayData>
     <ResourceID>spase://VWO/DisplayData/Voyager1/PRA/Jupiter/High.P1D</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <ReleaseDate>2012-02-24T17:13:33Z</ReleaseDate>
       <Description>
 	Spectrogram plots in GIF format derived from Voyager 1 Planetary Radio Astronomy (PRA) Highband receiver daily files 
-	during Jupiter Encounter (1979-02-01 to 1979-04-13). These plots are available for both polarization channels.
+	during Jupiter Encounter (1979-02-01 to 1979-04-13). These plots are available for both polarization channels and in both color and grayscale.
 	The color scale of these plots represent the electric field power spectral density in units of millibels.
 	Across the top of each spectrogram in the spacecraft and instrument name, the name of the binary data file 
 	that was used to create this plot, the polarization channel (Left or Right) and the date in the format YYMMDD.
@@ -79,8 +79,8 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>Access to Spectrogram plots of Voyager 1 PRA Highband 48 second resolution data</Name>
-        <URL>http://vwo.nasa.gov/datasets/Voyager1/PRA_HIGHBAND/</URL>
+        <Name>Access to color and grayscale spectrogram plots of Voyager 1 PRA Highband 48 second resolution data</Name>
+        <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/planet_radio_ast_pra/GIFs/</URL>
         <Description>
             </Description>
         <Language>en</Language>

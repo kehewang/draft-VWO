@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+  <Version>2.2.6</Version>
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Voyager2/PRA/Jupiter/High.PT48S</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <ReleaseDate>2012-02-24T17:08:31Z</ReleaseDate>
       <Description>
 	Voyager 2 Planetary Radio Astronomy (PRA) Highband receiver daily files 
-	during Jupiter Encounter (1979-06-01 to 1979-07-30). Associated with these binary data are a series of quick-look GIF plots created using the binary data. 	The plots are available for both polarization channels.
+	during Jupiter Encounter (1979-06-01 to 1979-07-30). Associated with these binary data are a series of quick-look GIF spectrogram plots created using the binary data. The plots are available for both polarization channels. These binary data were also converted into IDL save sets.
 	
 	
 	The data set provides 48 second resolution highband radio mean power data
@@ -85,7 +85,7 @@
       </InformationURL>
       <InformationURL>
         <Name>IDL program - convertvoyHIband</Name>
-        <URL>http://vwo.nasa.gov/utils/Voyager_PRA/convertvoyHIband.txt</URL>
+        <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/planet_radio_ast_pra/documents/routines/create_IDL_save_sets/convertvoyHIband.pro</URL>
         <Description>An IDL program that will read these Voyager PRA highband binary files and convert to IDL save sets.
          	</Description>
       </InformationURL>
@@ -103,6 +103,21 @@
         <Language>en</Language>
       </AccessURL>
       <Format>Binary</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>When using delivered data please acknowledge the data provider.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Access to Voyager 2 PRA Highband 48 second IDL save sets</Name>
+        <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/planet_radio_ast_pra/PRA_save_sets/</URL>
+        <Description>Within this directory list are the IDL save sets for Voyager 2 PRA highband during Jupiter encounter.
+            </Description>
+        <Language>en</Language>
+      </AccessURL>
+      <Format>IDL</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>When using delivered data please acknowledge the data provider.</Acknowledgement>
     </AccessInformation>

@@ -3,7 +3,7 @@
   <DisplayData>
     <ResourceID>spase://VWO/DisplayData/Learmonth/DS.GIF.PT12H</ResourceID>
     <ResourceHeader>
-      <ResourceName>Spectrograms from Australian Space Weather Services Learmonth Observatory</ResourceName>
+      <ResourceName>Australian Space Weather Services Learmonth Observatory Spectrograms</ResourceName>
       <AlternateName/>
       <ReleaseDate>2015-10-19T17:00:00Z</ReleaseDate>
       <Description>Culgoora and Learmonth Observatories dynamic spectrogram plots display frequency in MHz on the vertical axis and time in UT on the horizontal axis. The time span for each plot varies, generally spanning local day time hours with time resolution of 3 seconds. The frequency range is 18 - 1800 MHz for Culgoora spectrogams and 25 - 180 MHz for Learmonth spectrograms. The intensity values are color coded and are expressed as relative logarithmic units (0 to 255). 
